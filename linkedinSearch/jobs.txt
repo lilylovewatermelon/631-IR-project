@@ -1,0 +1,32 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+******* Num Jobs Returned for start=0 of keyword=python *******
+25
+*****
+******* Num Jobs Returned for start=25 of keyword=python *******
+24
+*****
+******* Num Jobs Returned for start=50 of keyword=python *******
+25
+*****
+******* Num Jobs Returned for start=75 of keyword=python *******
+25
+*****
+******* Num Jobs Returned for start=100 of keyword=python *******
+25
+*****
+******* Num Jobs Returned for start=0 of keyword=data scientist *******
+25
+*****
+******* Num Jobs Returned for start=25 of keyword=data scientist *******
+25
+*****
+******* Num Jobs Returned for start=50 of keyword=data scientist *******
+25
+*****
+******* Num Jobs Returned for start=75 of keyword=data scientist *******
+25
+*****
+******* Num Jobs Returned for start=100 of keyword=data scientist *******
+25
+*****

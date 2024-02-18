@@ -3,13 +3,18 @@ from urllib.parse import unquote
 import os
 import pandas as pd
 import csv
-import settings
 
-class LinkedJobsSpider(scrapy.Spider):
+# 125 each 'python', 'data%20scientist', 
+
+KEYWORDS = ['data%20engineer', 'machine%20learning%20engineer', 'artificial%20intelligence%20engineer']
+NUM_JOBS = 100
+
+class LinkedinJobsSpider(scrapy.Spider):
     name = "linkedin_jobs"
     api_url_template = 'https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={}&location=United%2BStates&geoId=103644278&trk=public_jobs_jobs-search-bar_search-submit&start={}'
-    keywords = settings.KEYWORDS
-    numOfJobs = settings.NUM_JOBS
+
+    keywords = KEYWORDS
+    numOfJobs = NUM_JOBS
 
     def start_requests(self):
 
@@ -25,7 +30,7 @@ class LinkedJobsSpider(scrapy.Spider):
         first_job_on_page = response.meta.get('first_job_on_page')
         first_keyword = response.meta.get('first_keyword')
 
-        search_keywords = self.keywords[first_keyword].unquote().replace('%2B', '_')
+        search_keywords = unquote(self.keywords[first_keyword]).replace('%20', '_')
   
         jobs = response.css("li")
 
@@ -51,7 +56,7 @@ class LinkedJobsSpider(scrapy.Spider):
         # request next_url
         if (num_jobs_returned > 0 and first_job_on_page < self.numOfJobs):
             first_job_on_page = int(first_job_on_page) + 25
-            next_url = self.api_url + str(first_job_on_page)
+            next_url = self.api_url_template.format(self.keywords[first_keyword], first_job_on_page)
             yield scrapy.Request(url=next_url, callback=self.parse_job, meta={'first_job_on_page': first_job_on_page, 'first_keyword': first_keyword})
         else:
             first_keyword = first_keyword + 1
@@ -75,16 +80,3 @@ class LinkedJobsSpider(scrapy.Spider):
                 csv_writer = csv.writer(csvfile)
                 csv_writer.writerow(['url'])
             df.to_csv(csvfile, header=not csvfile.tell(), index=False)
-
-
-
-    # def create_csv(self, search_keywords):
-    #     output_dir = 'data_url' 
-    #     if not os.path.exists(output_dir):
-    #         os.makedirs(output_dir)
-
-    #     filename = os.path.join(output_dir, '{}.csv'.format(search_keywords))  # Assuming 'title' exists in the item
-
-    #     with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-    #         csv_writer = csv.writer(csvfile)
-    #         csv_writer.writerow(['url', 'job_code', 'job_id'])

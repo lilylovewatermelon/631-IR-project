@@ -9,7 +9,25 @@ from scrapy import signals
 from itemadapter import is_item, ItemAdapter
 
 
-class LinkedinSpiderMiddleware:
+from scrapy.exceptions import IgnoreRequest
+
+class RetrySkipMiddleware:
+    def process_request(self, request, spider):
+        # Check if the request has already been retried
+        retry_times = request.meta.get('retry_times', 0)
+        max_retry_times = spider.settings.getint('RETRY_TIMES', 3)
+        
+        if retry_times >= max_retry_times:
+            # Skip the request if maximum retry attempts are reached
+            raise IgnoreRequest(f"Skipping {request.url} after {retry_times} retries.")
+        else:
+            # Increment the retry count for the request
+            request.meta['retry_times'] = retry_times + 1
+            return None
+
+
+
+class LinkedinsearchSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -53,10 +71,10 @@ class LinkedinSpiderMiddleware:
             yield r
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info("Spider opened: %s" % spider.name)
 
 
-class LinkedinDownloaderMiddleware:
+class LinkedinsearchDownloaderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
@@ -100,4 +118,4 @@ class LinkedinDownloaderMiddleware:
         pass
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info("Spider opened: %s" % spider.name)

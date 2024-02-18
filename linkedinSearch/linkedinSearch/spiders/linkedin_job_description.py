@@ -5,20 +5,25 @@ import scrapy
 import os
 import pandas as pd
 import json
-import settings
+from urllib.parse import unquote
 
-class LinkedInJobDescriptionSpider(scrapy.Spider):
-    name = "linkedin_job"
+KEYWORDS = ['python']
+
+# , 'data%20scientist'
+# not yet : , 'data%20engineer', 'machine%20learning%20engineer', 'artificial%20intelligence%20engineer'
+
+class LinkedinJobDescriptionSpider(scrapy.Spider):
+    name = "linkedin_job_description"
     
-    keywords = settings.KEYWORDS #'software_engineer'
+    keywords = KEYWORDS #'software_engineer'
 
     # job_pages = ["https://www.linkedin.com/jobs/view/python-developer-internship-at-mindpal-3703089625?refId=w8fjclBo8vHOKvOm6qTGIA%3D%3D&trackingId=11l%2BLLmpE5BEVgxUIhaY2A%3D%3D&position=19&pageNum=0&trk=public_jobs_jserp-result_search-card"]
 
     def start_requests(self):
-        job_index_tracker = 0
+        job_index_tracker = 7
         first_keyword = 0
 
-        keyword = self.keywords[first_keyword].unquote().replace('%2B', '_')
+        keyword = unquote(self.keywords[first_keyword]).replace('%2B', '_')
 
         self.readUrlsFromJobsFile(keyword)
         first_url = self.job_pages[job_index_tracker]
@@ -31,7 +36,7 @@ class LinkedInJobDescriptionSpider(scrapy.Spider):
 
         job_index_tracker = response.meta['job_index_tracker']
         first_keyword = response.meta['first_keyword']
-        keyword = self.keywords[first_keyword].unquote().replace('%2B', '_')
+        keyword = unquote(self.keywords[first_keyword]).replace('%2B', '_')
 
         print('***************')
         print('****** Scraping page ' + str(job_index_tracker+1) + ' of ' + str(len(self.job_pages)) + ' for keyword ' + keyword + ' ******')
@@ -83,7 +88,7 @@ class LinkedInJobDescriptionSpider(scrapy.Spider):
             first_keyword = first_keyword + 1
             if first_keyword < len(self.keywords):
                 job_index_tracker = 0
-                self.readUrlsFromJobsFile(self.keywords[first_keyword].unquote().replace('%2B', '_'))
+                self.readUrlsFromJobsFile(unquote(self.keywords[first_keyword]).replace('%2B', '_'))
                 next_url = self.job_pages[job_index_tracker]
                 yield scrapy.Request(url=next_url, callback=self.parse, meta={'job_index_tracker': job_index_tracker, 'first_keyword': first_keyword})
             else:
@@ -117,3 +122,5 @@ class LinkedInJobDescriptionSpider(scrapy.Spider):
             
         #remove any duplicate links - to prevent spider from shutting down on duplicate
         self.job_pages = list(set(self.job_pages))
+
+
