@@ -1,0 +1,637 @@
+id,song_name,artist_names,album_name,lyrics
+6O3el31r0R32NqVvP3zxWX,Throw Up Yo' Hood - Explicit Album Version,Lil' Flip,548NoYLgqSBDTNIYvlpDu5,"14 contributorshow launching the “worst version” of a site led to 40000000 monthly users lyricsandrew hey there freedom fighters my name is andrew warner i am the founder of mixergy home of the ambitious upstart and this is a story of an entrepreneur who took less than six hours to build a site that now attracts 40000000 monthly users his name is tom lehman
+
+you see him up on your screen he is the cofounder of rapgenius a company dedicated to annotating and interpreting lyrics i invited him here to talk about how he did it this interview is sponsored by scott edward walker of walkercorporatelawcom but i’ll tell you more about scott later for now i want to welcome tom tom welcome
+
+tom woo great to be here big fan thanks for having me
+
+andrew thanks you know and it means a lot to me too that you’re not just a guy who’s here doing the interview but you’re a fan who’s heard my past interviews
+
+tom patio eleven big ups to patio eleven love him great guy big inspiration much love
+
+andrew patrick mckenzie he did the interview here when he was living in japan i think it was soon after he quit his job after reading about start ups building his company and you were in the audience so cool that you were in the audience watching
+
+hey i went with took less than six hours to build the site and the reason why i kind of rushed through that intro was because it just felt so gimmicky and i just realized after reading it that i couldn’t stand by my own intro so let’s explain it a little bit it took six hours partially because time in that you put into a previous i call bettermetronorth what was bettermetronorth and is actually
+
+tom right so bettermetronorth is a website it’s bettermetronorthcom it’s still up and running today
+
+andrew mmhmm
+
+tom and it’s a website that makes it very easy to get train schedules on metronorth railroad which is a train system that runs throughout new york and connecticut and the germ of the idea came i was actually visiting some friends who were at yale law school at the time and i was trying to decide whether to go to law school
+
+and while i was there i was like i definitely don’t want to go to law school and so i was sitting in on a class that was making the final decision that i didn’t want to go to law school and in the class i was like well i’ve got to get a train to go home and the website was really bad and i was like all right i can hack something together to do better
+
+and so in that class i hacked it together and then kind of refined it and eventually released it as a standalone site it still exists today it basically grabs the schedule from metronorth’s website which is ugly and hard to use it requires you their one page to get the schedule another page to get fare information
+
+and it compiles schedules of fares together in a very nice little table it shows it to the user and you can click reverse trip to see the trains on the way back so bettermetronorth was this project i was building i was kind of in a mode at the time building a lot of projects on the web i had really just gotten into programming and i also wanted to quit my job like patrick mckenzie you like patrick mckenzie a lot
+andrew he was a salary man too and he was looking to quit
+
+tom yeah
+
+andrew your model though wasn’t to find one thing you wanted to build what was it 20 different products you wanted to do what was the strategy that would eventually lead you to the business that would help you get out of the working life
+
+tom sure so i didn’t know what i ultimately wanted to build i also had collaborators i was working very closely at the time with my close friend and roommate ilan who’s one of the other rapgenius cofounders and then macmod sp the third rapgenius cofounder i didn’t work on the pre rapgenius projects with but he was there from the very first day on rapgenius
+
+and we were kicking around ideas and i remembered thinking to myself okay i built a couple of things online you know at that point i had built bettermetronorth there was a website called bombsheets which was the easiest way to buy bedsheets online we solved the problem i’m sure you’ve had of going into bed bath and beyond and having a nervous breakdown at the site of all the different options for sheets and not knowing like which is good so it’s great sheets no hassle
+
+fliff sp was another thing we built this was a kind of a proto venmo we had tracking debts and paying off debts between roommates the idea came to mind when ilan and i were moving in together and he had to pay for the movers and i had to pay the security deposit and we were like how do we like bettermetronorth
+
+and so i was like you know what i built four things online none of them really took off but they’re all pretty cool if i build 20 things online by that point something is bound to take off so i’m not going to worry about it i’m just going to build one thing after another and then see what takes off
+
+and the thing after bettermetronorth rapgenius which was in some sense the worst idea of them all or at least the most distant from the idea of a business ended up taking off although it didn’t really seem that way at the time it took a long time before it really seemed clear that it was going to work
+
+andrew how would you know that one of these tests would work what was going to be your yardstick
+
+tom well that’s what is funny about it is that the actual test was wrong which was that it’s not good to build 20 different things and see what takes off because the way things fail is not because the idea is bad the way things fail is because you quit
+
+and so with bombsheets you know we built bombsheets i programmed it and then ilan and actually we were collaborating with another current rapgeniuser todd you know we put bombsheets out there and we didn’t get a lot of traction not a lot of people bought sheets although we did buy sheets so that’s like you know if you can put up an website and have someone who’s uterus you’ve never been in contact with not your mom buy something from them it’s very hard so that’s cool but we didn’t get a lot of traction
+
+so what we did was we quit we quit after about four or five months it doesn’t necessarily mean bomb sheets was a bad idea it was a bad idea in that duration but if we had kept working on it if we had kept pushing and iterating on it then it would have become something
+
+in a lot of ways rapgenius succeeded only because we decided not to quit we kept working on it because the first 14 15 16 months of rapgenius was looking like a total failure so you know not quitting is a big important thing in being successful
+andrew you know what it does seem like bomb sheets is the one that–
+
+tom  long way to go i’m sorry
+
+andrew i’m sorry
+
+tom i just want to say i think that not quitting is important in being successful but i don’t want to say that like i’m successful now because it’s day 1 for rapgenius today we got a way long way to go before i’m calling rapgenius a true success but getting a little taste of traction takes –
+
+andrew and i want to spend some time here really diving into what got it from the idea to where it is today but i have to ask you about bomb sheets because it does seem like a regret of yours i’m wondering of all the different things that you tried why do you feel like bomb sheets where you spent months on it is the one that you could have even spent more time on
+
+tom bomb sheets was just the most recent one and it was the one that had — i could have spent more time with better metro north too but when i put metro north out there people were like what about the long island railroad that’s was like 
+
+so i could have done more with that bomb sheets is one i could have definitely done more not bomb sheets in particular it’s any idea that you will be able to put out there that doesn’t become a big thing it’s either not a big thing because it’s just not a great direction and you should have pursued it  or it is a great direction and you should pursue it
+
+it’s just going to take a lot of work and suffering and obscurity to make it a big thing there’s no way to know ahead of time i feel or at least i don’t know and so that’s why i think a big thing is you shouldn’t work on something for four months and then think ah god i went to college i deserve instant success
+
+so yeah again don’t quit or maybe quit until you find the right thing and then don’t quit we could of easily quit rapgenius there were times when we came very close to quitting rapgenius in fact i remember there was one lunch where ilan and i were at lunch and i was basically telling him yeah the thing about rapgenius is from a technical standpoint i think it’s done i think i finished it it is what it is it’s fine
+
+maybe we should go back and work on bomb sheets again we had a lunch where we literally talked about that and seriously entertained it that was many months into the project so we could of quit rapgenius easily so don’t quit if it’s good
+
+andrew it occurs to me that you’re a guy who’s in rapgenius who’s into entrepreneurship but before you worked at de shawsp company i could never understand how someone who is so freespirited so entrepreneurial who’s so into maybe not music as much as your cofounders you said but dancing
+
+how do you work at a company like de shaw i tried to do that when i left college and i couldn’t bring myself to do it and i’m not nearly as relaxed and comfortable — i definitely wasn’t at the time as you are with yourself how do you fit into an environment like de shaw
+
+tom sure that’s a good question to this day i’ve got a ton of love for de shaw and de shaw taught me a ton of things i think the answer is that–i think the one thing that made de shaw not only tolerable but in some ways great at least in the earlier days was people there were not totally likeminded in temperament and interests but most of the people there were likeminded in terms of obsession with doing a good job and quality and being driven
+so when i was there this was before i knew how to program i learned to program there why because i was doing various assistant administration tasks there were people there who were really driven and really good at using programming tools to help and they would teach me that stuff then i went on to be a product manager
+
+the standard of quality when you’re designing a feature or giving feedback on a feature the level of quality you needed that was really drilled into me it’s like a really really good job just doing a really good job taking pride in your work really pushing yourself even if the actual literal work isn’t the most interesting thing having a sort of craft you take pride in
+
+also it taught me a bunch of things i learned how to program because of de shaw i learned how to be a product manager because of de shaw i learned a lot about how to run a company at de shaw at de shaw i remember one rule at de shaw is when you’re running a thing you never want to put someone’s individual email address on a web page
+
+and say if you have problems with finance email andrew werner you want to say email finance you want to say email this mailing list so if that person leaves the company you’ll still have it that’s like mundane stuff that’s one mundane example
+
+a lot of stuff like that de shaw was a wellrun place i get to facilities very seriously like you show up on day one your computer would be there your desk would be there everything was there you shouldn’t need a pen it was all like that at every company and so it was somewhat of an inspiration
+
+andrew i read the book “the everything store” about jeff bezos and unlike jeff bezos’ wife i love that book and it talks about how much he learned from d e shaw about analysis about thinking about companies and markets did you get any of that too there
+
+tom you know not really i was building tools that the traders and other sort of financial analyst type people use so i got some exposure to it in terms of building tools in a certain way but i would say that d e shaw taught me that analyzing situations and dynamics but not so much about the public markets i’m also a pretty big skeptic about that kind of stuff in general even though i was working at a hedge fund i don’t think anyone really knows anything so i don’t know 
+
+andrew so you were in the experimental phase and you came up with the idea for rapgenius how
+
+tom so i was getting into rap music in high school in college i was never really into rap like from a lyrical perspective in college i like to dance to a beat that i could dance to when i was in college the defining songs of my college experience were rap two of them being “hey ma” with camrom juelz santana when i heard that song i thought truly okay it’s the end of history shut down music culture because we’re done this is the best song that can ever be
+
+and then it happened again or maybe this was first but “ignition remix” which is rap well “ignition remix” came out and that was like whoa this is the end of history so those two songs kind of defined anyways my college experience but “hey ma” is a good example the lyrics of that i love now but back then i kind of mumbled them i didn’t know what they were i just knew it was an amazing beat
+
+so i was getting into rap and getting into lyricism with my friends particularly my cofounders but also my other friends and other people on the site were explaining it to me and explaining it in a very specific way there would be a line like a camron line they’d pause the track and then they said “listen to that hear that line what that means or what that’s referring to that’s actually a subliminal record to this thing let me explain this now let’s go back and play it again”
+
+so we were having these conversations i was blown away i was like there’s so much going on here that i had no idea about this is amazing and this of course was a beautiful time in rap this was 2009 this was lil wayne was just like murdering everyone and camron was more current than he is now it was a beautiful time for rap and it was a beautiful time for me to get into it
+
+so we would be having these conversations and then we had the idea to take these conversations and try to put them on the internet like create a site where someone could experience what i was experiencing in real time without having to have access to the people who were my friends and so the original version of the site was called rapgenius you can actually look at the original version of the site
+
+andrew i love that you kept it up it’s rapgeniusgenesishurokucom
+
+tom yes that’s right yes that’s the original version of the site that took me from 1230 to 630 on august 26th i believe 2009 to create this and went out and that was the first version and it’s pretty much the same it is today i’ll say like it’s not so different today
+
+andrew so were you thinking about size market revenue any of that stuff when you built these businesses
+
+tom well for  i kind of was
+
+andrew not for rapgenius not for 
+
+tom most of them were inspired by sort of    at the time i read “the four hour work week” this was inspirational now  some aspects were cool i really want to build not a big business with a vc i don’t want to make a ton of money with rapgenius i wasn’t thinking of that we were thinking like let’s do this cool art project i felt it was cool because the technology of clicking a line and seeing what was going on on the line what it meant but also why it was cool
+
+and also then that combined with the writers that we had access to which was my friends and a group of people like 1015 people who were really good writers this technology is simple but cool plus these writers i’ll make this really cool art project and that’s what i kind of saw this art project and that what it was for a really long time
+
+andrew you know i was telling tim ferriss the other day that he might be the most quoted person or the most referred to person in mixergy interviews and i asked him if he could talk about that part of the process what is it about his ideas that somehow just touched you and so many other entrepreneurs we’ll see if we can do that in the future
+
+at the top of the interview i said it took you less than six hours and i later corrected and said that it’s basically less than six hours because of the work that you did previously what were you able to use so that you can launch within six hours
+
+tom right so this is like you know you can’t connect the dots going forward or whatever on better metro north there was this interface where you could type in using natural language the date for the train you wanted to get you could say show me trains on a week from next tuesday or whatever and that would work i thought it was really cool even though when people use the site it’s usually like the button for today or the button for tomorrow
+
+that’s what they click rather than clicking the third option and typing some complicated thing but that was cool so i did that and i created a little help thing that allows you to understand how this interface worked you click a little help button and this little tool tip would appear showing you here’s an example of what you can type and so forth
+
+when i was thinking about rapgenius and how can i represent the idea on the screen getting context  online i was like you know that tooltip library i looked at which is called qtip it’s still on the internet you can look it up right now i was like that tooltip library was actually pretty functional maybe i could repurpose it for a task that it was not originally intended tooltip is to bribe contextual by using interface or something but i think it’s actually a pretty fullfeatured library maybe if i repurpose that to actually show actually show these annotations
+
+so the original rapgenius thing i copied and pasted the better metro north code so it is literally the code i just took that library and reconfigured it and added a little bit of subtlety to the way it was integrated that became the central interface excuse me the central ui paradigm of rapgenius which persists today it’s not perfect by the way but it’s good enough which is you click the line and a little bubble appears next to it so it’s gone through some iterations but we’re still using the qtip library today
+
+andrew the same one now i think you even show images within those tips
+
+tom right so the qtip can contain any type of–any html so yeah we have images in there obviously getting all that to work and the editing interface and everything was complicated but the actual bubble that shows you an annotation is still that same qtip library same damn lo sweater
+
+andrew you know i loved the piece that first round did on you the case study about how you built up rapgenius and how you were willing to launch without getting it perfect i’m trying to square that with what you told us earlier about getting the right level of quality at de shaw i’d imagine that someone with you background and who worked for a company with such attention to detail would have a wrestling match internally with releasing something that wasn’t right
+
+tom oh yeah oh yeah so the floss being the first round thing the main thing about that speech was worse is better which is based with this idea that the worst thing you could imagine is the best thing so a fun exercise in the speech is i say everyone yell out the worst thing you can imagine and that’s the best thing and everyone yells
+
+but the idea is purposefully when you’re trying to put a product out there a new thing release the worst version you can think of and try to make it bad and get it out there the assumption underlying this is that that is subverting your normal impulse
+
+so yes my normal impulse which is somewhat innate and somewhat taught to me by de shaw and other places is make it perfect because details matter in software details matter and your face is the normal impulse so the idea that worse is better subvert that impulse and release something that sucks a bunch of people are going to tell you that it sucks so you’re going to know they’re right and it’s still the right thing to do
+
+so that’s the challenge it is very much against my impulses and i still get caught in a better is better trap a lot of times it’s like ah i got to perfect it before it get it out there i still get caught in that and that’s like a piece of vernacular here at rapgenius like someone will propose something and someone else will say well that’s a little bit better is better which is kind of like saying look i get it that’s better but it’s not detail oriented but it’s not the worse is better philosophy and it’s not any good i can get into why i think the better for worse philosophy is good
+
+andrew i want to ask you a question about an issue that i’ve had with that same philosophy because i believe in that but why you were going to say that there’s a reason why that makes sense
+
+tom yeah there are a couple of different reasons the big reason or the first reason i always think of is that bad ideas evolve into good ideas in ways that you wouldn’t anticipate the best way to have a good idea is to have a bad idea and watch it evolve when you’re think of some kind of finished product or finished idea–or when you’re putting yourself out there with a bad idea you’re thinking this is the thing i’m putting out there
+
+but really that’s version one you’ll put it out there and you’ll look at it and then you’ll have other ideas you have to trust yourself that you’ll be able to have other ideas that will evolve that bad idea into something good
+
+so that’s one core idea a related idea the second core idea is that bad ideas evolve into good ideas but they evolve into good ideas with the data you get from having it out there you shouldn’t shoot for perfection because you don’t know what perfection is before you start you have to build something you have to see how people will react and the sort of thought experiment i used to think about this is like you are the dumbest you’ll ever be right now you’re only going to get smarter you’re only going to get more data
+
+so make as few decisions as you can now while you’re dumb and postpone them to when you’re smart and here’s a really good example of this in the original version of rapgenius there was this concept of confidence which was an attribute on annotations you could add an annotation and you could say i have confidence level high and what this was supposed to mean was that i’m confident in this annotation
+
+or you got a confident low which means like i think it’s what this line is about but i’m not sure and that was something that i thought was going to be important but it actually was totally irrelevant it was totally useless and irrelevant
+
+there were a lot of things i had to change from the first version of rapgenius to get where we are today and there’s a lot we have to change in the future but adding that confidence attribute at least so far has not been the most important thing and yet when i was sitting in the dark on my own programming i thought it was important but once the design reached the light of day and people started using it i realized other things were important
+
+andrew what was more important than confidence
+
+tom for one thing what was more important was giving people the ability to easily add annotations like giving a way to sign up a way for you to add an annotation to a page that i was also editing without us clobbering one another
+
+one really important thing was giving people points for adding annotations that was a pretty important thing and the final principle is that if you set yourself a standard for perfection when you launch a product you’ll never be able to get yourself to put yourself out there at all
+
+because you’ll always be thinking like aw this isn’t perfect like it needs to be better if you hold yourself to such a high standard you’ll be too intimidated by your anxiety of influence by like all the great things that happened before you and like how can i put this out there at all if it’s not perfect and every little release things
+
+it’s actually even more insidious because you will be able to release some things but the things you’ll be able to release are small small features small improvements and that’s a big problem and this is again like sort of at my core of like what i think is important and what i think is unimportant
+
+which is that my attention to detail is such that like i really want to release features every day that are going to smooth over small ui issues on rapgenius that’s just going to make it easier like you can shift and enter to save an annotation as a shortcut key or make it easier to add an image here or there or whatever
+
+and these things are good but ultimately you need to think big you need to think about big features that you’re going to release that are going to change the game so my test is can we as a company ipo without this feature if the answer is yes work on something bigger and so if you hold yourself to a standard of perfection you will release only things that you can make perfect which will be very small things
+
+andrew “wait so you’re saying do only create things that could eventually lead you to ipo”
+
+tom only work on things that you need to ipo
+
+andrew i see and when you do create them in a small enough way that’s it’s a bad first version
+
+tom right just do a bad first version of a really big important thing and then try to improve it once it’s out
+
+andrew gotcha what about this though tom i found that when i do do that often i neglect things and don’t improve them like if i didn’t have this philosophy maybe it would have taken me longer to launch interviews and i would have tried to get the video perfect and everything right but at least i would have been on my path to improving the quality of the video
+
+today i launched it it feels like it’s good enough people can hear you they can hear me and i’ve left it and i’m not thinking about how do i improve it and so the question i have here is does this culture of just launch it and then move on or launch it and be okay with it lead to stagnation
+
+tom i think that’s a really good question i think there are two sides to this one is that what is good enough so you rerelease your video platform and it works to a certain degree and maybe it’s not the most elegant streamlined thing that you would like but it works and then now you’re working on other stuff
+
+and the question is is what you’re working on more or less important than improving the video thing and it seems like you’re voting with your feet and saying well this is good enough and there’s other high priority stuff i should do so the other answer is that good enough is often like better than you might think in the abstract especially from a prioritization perspective like you have limited time on earth what do you actually want to do
+
+andrew so how do you get feedback so that you know what needs to get fixed
+
+tom the second part of that is that getting caught in a worst state is a legit risk and that’s something that’s happened a bunch in my life
+
+andrew give me an example of you launching something that was the worst possible and you got stuck in the worst state as a result of it
+
+tom hmm what’s a good example well one example is the support on the site for other types of text right beyond songs we released this thing where you could put anything up poems books movie scripts etc for a while it was just the exact same technology so you’d have the great gatsby and the great gatsby chapter one would be an album and that album would be called “the great gatsby” and all the chapters would be tracks on that album it’s like “ok that’s pretty bad” we made a lot of improvements to that and we changed it
+
+i mean now for example it doesn’t say “great gatsby chapter one lyrics” anywhere which was a problem but i don’t think we’ve gone far enough in terms of supporting other texts yet and this is something we’re working on now i wouldn’t say necessarily we got caught in worse is better but we didn’t give…
+
+andrew how do you prioritize tom with all these different things that you could do you could improve the way that people annotate rap lyrics you can expand beyond rap and go to more depth you can get more traffic you can do books you can do video which is a vision of yours to allow people to annotate i mean this conversation how do you figure out what’s going to be most important
+
+tom that is the question product strategy what do we build that is the question not like “how does it look” or “how does it pay and what’s the interface” what do we build is the question i think that gets at like the core of what it means to run a business i mean i think the key sort of sp metapoint we were thinking about is you need to be very picky you need to have focus and that’s something that like once you’re in the position that rapgenius is in today focus is very hard because there’s so many things that we could do you mentioned annotating videos annotating images
+
+there are a bunch of people on the site right now who are saying “image annotation is the future obviously you draw a little lasso tool around the mona lisa’s eyebrows or lack thereof or whatever and you annotate what’s the deal with mona lisa’s not having…or her smile” or “take a picture of me and draw a thing around my nike’s or whatever” that’s one thing we could do that could be big there’s a bunch of other stuff the video thing etcetera so you need to have focus and you need to say “okay we can’t do all this stuff let’s pick one thing and push towards it”
+
+with rapgenius i think the strategy is interesting because we have this rap community this rap portion of the site of the experience that is really strong and something that we have to push forward and make sure it stays strong but also make sure we innovate you sort of think “okay now that we’re in a community of hundreds of active moderators and thousands of contributors how do we keep that community strong how do we help think about once the other communities grow up what lessons does this original community teach us about how to manage big communities of annotators” so that’s definitely a priority for us making sure that rapgenius not only stays strong but also puts us in a position to learn…
+
+andrew do you have a framework for figuring out what’s next do you go for video or images do you have a way of doing that or is it just “which of those two is most likely going to get us to the big ipo and that’s the one we’re going to go for”
+
+tom well the broad framework is to think about improving preserving and learning from what we have in rap and music and then take other things probably one other thing and concentrate on it really hardcore whether it’s image annotation video annotation the annotation of literature the annotation of news prime resource documents then within that the way we think about priorities is we want to optimize for the hardcore contributors the hardcore community members
+
+andrew i see
+
+tom 80 percent there’s the 8020 rule in ugc sites we actually did the math this recently it’s actually literally exactly true for rapgenius which was shocking
+
+andrew what was it 20 percent are
+
+tom twenty percent of the users the most active dedicated engaged 20 percent of the users create 80 percent of the content we think about those 20 percent of those users exclusively this means going to rapgenius as one of the other 80 percent of users who’s not the core they get not the best experience they go and they think “this site is jenky in some ways and maybe not the slickest thing this annotation technology when i click on the little thing and the thing appears that looks pretty similar to the first version of the site so what have you been working on”
+
+then they also notice “god these annotations are pretty good” what makes the annotations good is building stuff around encouraging and helping the community that writes them that’s what we focus on because the quality of the analysis the quality of the annotations is the most important thing not the presentation and how slick they look when you read them
+
+andrew i’m on the site right now the version that you created and put up on heroku it’s got one song
+
+tom i know…
+
+andrew you’re starting that small
+
+tom not even a full song it’s three couplets
+
+andrew yeah yeah yeah three couplets and so that was your experiment and then you bought rapgeniuscom
+
+tom well we actually stayed rapxjesus for about that tells you how dumb we were back then because rapxjesus is a pretty bad name then one of the founding editors of the site also my roommate at the time ariel shower sp big ups to ariel he threaten to delete all annotations and stop working on the site unless we changed the name he was like this is totally ridiculous so we changed it to rapgenius about four or five months later and that was a good good move
+
+andrew your first users were your friends you were emailing them how do you go beyond your friends to get people in a community that basically will suck unless people annotate unless the people put in the work
+
+tom the most important thing when you’re thinking about a community like this is you want to set the tone yourself because when someone comes to the site they’re going to look at it and they’re going to say okay i can sense what’s going on with this site are the people who annotating here the people who are contributing here are they like me or are they not like me in other words do they think about music in the way that i think about it do they take this seriously are they really interested in going deep or are they just trying to act like a superficial joke and not you know
+
+andrew got it like if they’re not taking it seriously as i am then i feel like a douche if i take it seriously and i’d better get away
+
+tom right and so that was the early stage for us and we didn’t know we were doing this we just thought we were doing a good job because that’s what we want to do but we were really setting the tone with a high standard of quality in both the content and the like 
+
+andrew i understand why you would do it tom this is your baby it’s your passion but your friends who didn’t get a share in the business who weren’t as invested why do they care enough to post annotations onto rap lyrics
+
+tom well it was cool you know it was
+
+andrew what did you do to make it cool enough that they would do that as opposed to go on reddit sp and comment or watch a movie on netflix or do any of the billion jillion things that they could do online
+
+tom well it wasn’t so different from like in college where we all had blogspot blogs so putting stuff online and talking about it one example is ariel ariel used id too  threatened to kill me if i didn’t change the name he wrote this epic log post in 2008 where he basically did a huge analysis of current sort of transit sp rap and concluded that eclipse was the best group ever that was this huge blog post he did and rapgenius was just a better format for that he was writing it anyway on his wordpress blog so it was just a cool way of presenting
+
+there was also this group project where we could get together and kind of argue about stuff and then come together and produce stuff that was not only greater than the sum of our individual contribution but look like it was written we used to say by the voice of god you can’t tell who’s writing this but there’s a ton of great content and 
+
+andrew so you said that one of the things that you discovered later on was the importance of points did you do anything to give people points or status early on when it was just a handful of people creating the culture of the site what did you do you’re nodding
+
+tom we had a leaderboard in the earliest days which was just the number of annotations you created
+
+andrew got it
+
+tom not a bad not a bad proxy not a bad proxy then it got way more sophisticated and complicated that was also after we open it up in the early days you’d have to talk to me to get an account you know soit was just our friends then we put these ‘disk us’ comments at the bottom we just dropped in that little  thing and then people started leaving comments people started saying no you’re wrong about this this is the right thing
+
+then i was like oh that’s cool then we’d sort of invite some of those people in we’d have maybe 10 or 15 of our friends and then maybe 10 or 15 people i had never met but were interested we did that for a while and then we decided to open it up entirely let anyone signup and then start annotating that was a true engineering effort to really allow for that because someone can just go crazy and delete the whole site so you have to 
+
+that also corresponded with the creation of the original rap iq system which was based on numbered annotations but also there was a whole editorial where if you were a new user and you posted and annotation i as a editor would have to accept it before it would be visible to other people so you’re getting your annotation accepted gets you points i also got a couple of points but fewer for being a moderator then it got very complicated people started gaming it it was a whole headache but still the same fundamental idea
+
+andrew the group of users who were coming in after you and your friends where did you find them how did they find you
+
+tom it’s amiss google search was a great user acquisition channel so to speak i still don’t know really how you build a website and get people to use it google search is kind of like a cheat code in some ways for that if you think about it it’s pretty weird that someone can type what they want into google and end up on your site without even knowing you exist that’s pretty magical
+
+the thing about something like rapgenius is it’s not like twitter where you need millions and millions of users to make a great thing it’s more like wikipedia one amazing contributor can create a canonical version of a song that will last a decade millions and millions of people will see it it’s also very hit and miss for example one of our greatest early contributors one of the only members of the 200 club which is having 200000 plus total iq is a gentleman sean sutaro sp who found us in the early days because he read about us in new york magazine
+
+my opinion on press is that it’s not really that useful generally but in this case now he works here full time and he’s a crucial part of the voice of the site and the thinking of the future of the site if we had never gotten that new york magazine approval matrix thing he would have never found us that ended up being a very pivotal connection early on
+
+andrew that new york magazine approval matrix you were hoping that you were going to get traffic from it you got no traffic from it right
+
+tom right nothing
+
+andrew nothing except you met sean as a result from it
+
+tom yes
+
+andrew got it so 2010 was the year that you were describing earlier where things were going nowhere the “trough of sorrow” i think they call it at y combinator
+
+tom yeah i think that’s right we launched in september or october 2009 and then 2010 was not great at the end we started to see some glimmers of hope but 2010 was toiling in obscurity definitely it stopped when we released the thing that allowed anyone to sign up and contribute and then ended up being a big change but before that it was pretty bad
+
+andrew i’m looking at the version of the site that was up in 2010 “rapgenius explains rap lyrics click a song to reveal its meaning” there are 10 songs on the site and you limit it to 10 songs on the homepage and you seem to have limited the number of songs to maybe 100 was that intentional to keep it focused on a handful before you allow people to annotate any song
+
+tom at that point we had this idea of publishing a song where we would not release the song publicly and show people it was on the site until it was done until it was at a certain level of quality this goes back to setting the tone thing where we didn’t know what we were doing the site didn’t have a ton of stuff but all the stuff it did have was really good and that’s way better than having a ton of stuff that’s mediocre now we have a little bit of a different philosophy we have enough “good” stuff
+
+people understand the way it works when you stumble upon something that’s bad and there’s a ton of bad stuff you’re more likely to say “this is some bad inprogress thing i’m going to help make this better” rather than say “this reveals that the people involved in this site don’t care about quality” which is what we had to worry about in the early days
+
+andrew did you get permission to use the lyrics on the site back in 2010
+
+tom great question no we just did it we believed then and i believe now that its very use to add in all this commentary and criticism and so forth is transformative obviously there’s a legal risk that you take when you do something like this my philosophy on it is if you think you’re being a good actor can you look yourself in the mirror and say “are you jacking from someone or are you creating something new” if you can look in the mirror and say “no i’m not trying to just take someone else’s thing i’m really trying to create a new thing that uses some ingredients” then i think you have to go for it
+
+andrew even today it’s considered transformative so you don’t need permission
+
+tom i think it’s transformative
+
+andrew do you pay licensing fees
+
+tom someday maybe the transformative thing will come to the fore it would be cool go to the supreme court and win but that’s not what i think is a good use of our time right now we do have licensing agreements with most of the music publishers and hopefully all of them soon the other thing is you want to work with the music publishers
+
+i think there’s a lot of stuff we could do together obviously like the verified artist stuff on rapgenius promoting yourself as an artist and getting deep in the music industry is a big part of what we want to do it’s also good to just play nice for that reason as well they’re cool guys
+
+andrew that seems like the common way that many lyrics sites that are big today started by just grabbing lyrics and putting them on their site in fact one entrepreneur told me that the companies i forget which record labels i think it was actually used to send him stuff to give to fans to promote the fact the new album was coming out
+
+and so they knew what he was doing and then later on made a deal with him why did you stick with it during 2010 when there wasn’t money coming in when you were saying that this is a tough period what made you stick it out
+
+tom good question  two things i think one is that in our minds it wasn’t a business it was an art project and it’s a business you have to think is this a successful business but if it’s an art project all you have to think is is this a successful art project and the criteria of being a successful art project is way simpler it’s like do i think it’s cool do my friends think it’s cool is this something unique is this something some else is doing
+
+it’s a way to use your criteria it’s just like making money or generating investment interest so that was one that but even that is tough because there is the opportunity cost of your time i’m thinking god if this doesn’t go well i’m going to have to get another job i don’t want another job but
+
+the other thing is it did get — people liked it the guy at the new york magazine i remember the day i mentioned earlier where ilan and i were at lunch i was like rapgenius is done  work on it any more we went back to the apartment and andy vilodkin sp the hype sp machine had just tweeted this is a cool website the design is kind of janky or something like that i saw that and we were just like whoa that’s the coolest thing we love hype machine this is great
+
+and so enough stuff like that happened where we were not thinking necessarily this is going to be a business or this is going to be something we can use to raise money and eventually create a business but this is a cool thing it should be in the world and should be better improved so yeah that’s kind of like what kept us going
+
+andrew i want to ask you something that could come off a little jerky but i think it’s important to ask you but first let me do a quick plug here for scott edward walker he is the entrepreneur’s lawyer if you’re a startup if you’re running a startup you need a lawyer who understands the issues you’re coming up against and won’t look down on you i had a lawyer once i got a lawsuit from a major bank he says the lawsuit and he started to freak out and then he freaked me out
+
+then i realized this guy just doesn’t get my world he’s freaking my out i had to relax and realize that these companyies seem to send out lawsuits like it’s nothing 
+
+when i started looking at the binder for the lawsuit i realized they included every brochure they came up with every documented that they ever printed to show that they were so significant that i could potentially damage what they were doing
+
+anyway a lawyer who doesn’t deal with entrepreneurs is going to freak out so much more that one who gets the entrepreneurship community of pushing limits of seeing what’s okay and he’ll understand to be there to support you he’ll understand that you need to prepare for things that most companies won’t go through raising money selling out dealing with co founders etc
+
+if you need a lawyer like that and you don’t want one who’s going to make you pay through the nose i recommend you talk to scott edward walker of walker corporate law send him and email now here’s his email address scottwalkercorporatelawcom tom the question is why did you need co founders you seem to be doing well you’re a smart guy
+
+tom no it’s a good question i think if…it’s interesting a couple of things it’s kind of a silly question for me looking back on everything that’s happened it is impossible to do something like this alone what i mean like this is i actually think it’s even broader i think anything big anything worthwhile you want to do
+
+if you’re in business anything project that you want to do that’s big and worthwhile you just can’t do it alone there’s just too much and it’s too hard if it’s new so that’s the broad thing which is something i’ve come to believe not just about business but about everything so if i were to start writing a book or whatever you can’t do that alone either
+
+now in this particular case the importance of cofounders if you zoom in on two things one is just if you’re staring into the void and you’re doing it alone you can’t stare into the void alone when you’re truly truly starting into
+
+andrew give me an example when did you stare into the void and mahbod sp am i prounouncing has name right mah bod
+
+tom it’s tough mahbood mac bud he went by matt in high school
+
+andrew no i want to get the right name tell me if i’m pronouncing it right mah bud
+
+tom mah bud
+
+andrew mah bud and ilan
+
+tom so in the beginning staring into the void okay no content on the site right what are you going to do how are you going to get the content up no one is going to the site so how
+
+andrew so which of them helped you stop staring into the void and fill the void
+
+tom so mabood was in addition to being one of those prolific people in terms of raw contecration  early on was he was just amazing at building communities what this means in practice is talking to a bunch of people on the internet and inspiring them to join our mission of love and knowledge on one individual case there was someone who just hit us up and was so mean he was like you guys are like the worst this project is terrible and i hate you guys
+
+my reaction it was forget this like archive we don’t want to think about this whatever mabood was like yo you are 100 right but think about this too and blah blah blah that guy is now a close friend mabood is so good at turning people from
+
+andrew that guy is a close friend
+
+tom yeah yeah yeah
+
+andrew okay wow by the way i believe i don’t always have the pa– actually i think i do often have the patience for that but i believe in taking those what people would call trolls and hugging them really embracing them because if they’re so passionate that they’re saying things like that then you want to hear what their passion is and hopefully have them work with you
+
+tom truly big ups on my haters i think mabood has taught me so much about that kind of stuff it’s great and not just the haters just like taking someone who’s kinded sp into the site and saying let me inspire you in a ton of different ways and also mabood is a brilliant writer and wordsmith if you go to his account rapgeniuscommabood you will see just a ton of amazing writing
+
+and ilan ilan was my first real true business collaborator we started way before rapgenius when we first moved in together mabood got involved with the rapgenius project at the very beginning but ilan and i had been collaborating before that ilan and i just have a pretty unique like back andforth in terms of how we sort of run things or make things happen
+
+in one sense in a very literal sense i did do the programming and ilan raises the money but it’s not really like that everything in terms of really running the thing we’re bouncing it off so i have a somewhat harsher personality in terms of how i want to deal with things he has somewhat more of a shalesp personality us fighting that out produces great results
+
+ilan is like — i was actually thinking the other day i was with my friend ario sp who is israli too and we were talking about ilan we were just thinking god ilan is so likeable we were challenging ourselves we were like name one person who doesn’t like ilan or that ilan doesn’t like we were like i can’t name it he is like just such — and the reason for that is because when you are talking to ilan he is just zonedin on you he’s genuine it’s not a trick he is genuinely and deeply interested in who you are and what you have to say
+
+and that makes ilan just crucially brilliant and valuable in a bunch of different situations whether it’s a management situation like the psychology of managing people who work for you like listening to feelings hearing them out understanding where they’re coming from or whether it’s raising money and talking to an investor and really really connecting on a real level and understanding where that person is coming from
+
+andrew let me ask you one other jerky question as a followup to the first one
+
+tom sure
+
+andrew you still own more shares in the company a bigger share of the company than they do right
+
+tom i don’t know where you got that idea
+
+andrew so is it equally divided
+
+tom the key thing to think about is all of us are onboard so the real question about like who runs the actual actual actual thing there’s a question of who is operationally responsible on a daytoday basis on making this or that final call but then there’s the question of the deep direction of the company like who is in that position to make the final call
+
+that is what the board is for so all of us are involved in that and participating in terms of the real big direction of the company on a day today basis we have different responsibilities etc the thing about setting up a company is that…the way things come together like the good thing we did at the beginning of rapgenius was we didn’t sit down on day one and think okay this is a company we’re going to appoint officers to the company we are going to split up equity in the company
+
+and you have to do that eventually but you don’t want to do that when you are sort of splitting up percentages of zero this is something i’m glad we delayed in rapgenius earlier in my life i was a sort of wantrepreneur who shows up to discuss an idea with someone who’s new to the idea and i want to bring an nda like that literally happened to me the main thing… the first or flip the first idea was alan and me and we were going to talk to my work friend — you know friend — payton and we were going to go to him and say “payton what do you think of this idea you want to work with us on this sign this nda”
+
+and payton was like “what are you t… get this… are you an idiot” like we’re not going to do an nda we’re not going to set up a company we’re not going to do anything let’s build the thing and then see what happens and you know now…
+
+andrew so this decision didn’t happen until you raised money it sounds like
+
+tom until we got into y combinator
+
+andrew y combinator that was a huge deal for you guys why do you think y combinator funded you
+
+tom that’s a good question we did… first of all we got rejected from y combinator the first time we applied twice in a row and then we got rejected the first time so you can get rejected and then the next time you can apply and get in and be one of the hottest startups at y combinator so the world’s a crazy place
+
+why did y combinator fund us i think there were two reasons one objectively speaking we were an attractive thing we had a graph that was looking really nice it was going up it had passed a million unique visitors which is a hard thing to do as a website that you just created the graph was looking good and so we were legit like good prospect
+
+also there’s a guy called justin cann who denies it to this day but i really think he hooked us up because we… he wrote this blog post where he was like you know the connection between entrepreneurship and rap music and… you know he wrote this blog post and then he linked to us for the quoted various rap songs and linked to rapgenius
+
+and we saw this we were like “wow this is sick like justin cann he’s a huge name”
+
+and so  of course being down with talking to anyone in the world hit him up on facebook we were chatting with him for a while and justin cann was like… we were like “well we were a finalist in tech star should we take that if we get in”
+
+and justin cann was like “yeah probably but like you want to do y combinator if you can” and we were kind of like “well we got rejected should we apply again” he’s like “yeah you’ve got a great website it’s a growing website you should apply”
+
+and so that encouraged us to apply which we might not have even done and that year also a little after that before we applied i hitched a ride with my friend rich who was going to south by southwest for his company and i stayed on his couch first time i’ve ever used airbnb
+
+and then i stalked justin cann after some talk and i stalked him to the starbucks where he was meeting with someone and then when he got up and left i bumped into him i was like “oh justin cann what’s up” and then we talked for a while that day and i followed him around a little bit and we talked
+
+i think… i don’t know if he put in a good word for us or something but that was a good connection to the y combinator family and sort of talking to him getting his perspective really helped and also just encouraging us to apply we might not have even applied
+
+andrew yeah i’m sure twice… after being rejected twice i could understand why you wouldn’t
+
+tom once but it was… you know when we were rejected it was like “well obviously we were rejected some crazy rap lyric adaptation website” and then that’s the reality you form in your head “of course we’re not going to get accepted it’s a totally ridiculous idea”
+
+andrew why didn’t you accept that was it because tech star started to see some promise here and so you thought “all right maybe” or was it just that the numbers were starting to go up
+
+tom it’s crazy i mean we got into y combinator and we just were so so intimidated by everyone who was there and it was just this trippy thing
+
+because before y combinator no one cared like no one cared and i was kind of down with that i was kind of like “okay no one cares whatever i’m used to that” and then after y combinator we had demo day and after everyone cared we were one of the hottest startups in that y combinator batch and because of that had a solid claim on being one of the hottest startups in the entire world at that time in history everyone cared and everyone was into it
+
+and it was… three months had past and to my eyes nothing had changed it was like the same website we had grown a lot in y combinator but the graph looked good before you could have probably predicted some of that growth by looking at the graph and the site was basically the same the site had improved a little bit it was only three months
+
+and we went from no one caring to everyone caring in such a short amount of time and that kind of convinced me like whoa the world’s a weird place i don’t know what’s going on you know you’ve got to believe you’ve just got to believe in yourself
+
+andrew 
+
+tom it’s true
+
+andrew and so the business didn’t change much through the three months you grew as people but it wasn’t externally visible yet
+
+tom we grew a lot in traffic is really the truth and y combinator that was one of the fastest times of growth ever “watch the throne” came out that was a big thing for us and we almost tripled in size during y combinator which was a lot of growth
+
+andrew what’s “watch the throne” i should know that but i don’t
+
+tom “watch the throne” was this jayz kanye west joint project in november 2011 great album
+
+andrew okay you then got was it beta works that came in as an investor right afterwards
+
+tom yeah i guess we’re really not a crunchbased
+
+andrew yeah i don’t know that this is actually yeah is beta works the next one
+
+tom we didn’t see  it was actually about 16 or 17 or 18 different investors including beta works and we were hot and had interests but it was still hard to raise money it took us a long time you know you read these stories about well i come here demoed in you leave demoed in you’ve got a bunch of signed whatevers and you’re good at demo day not how it worked for us it happens to some people like that
+
+so we raised about 18 million but when we were raising it it seemed like we were going to be able to raise 400k and now we need more than this we’re screwed it was a hard process but we ended up doing it and raised a nice round and that lasted us for a little bit then we started fundraising almost immediately again because 18 million dollars seems like a lot but it doesn’t get you that far
+
+then the second round of fundraising was a longer different process and that landed us with the 15 million from ben horowitz sp which was you know that was a nice little   
+
+andrew that was when i felt that the startup world said whoo right lyrics this big what did you say to them what did you show them that made them sign on
+
+tom one thing we said was it was–okay so you think this is totally ridiculous well we’ll go on stage in sunglasses and troll you even more and that was a bad idea because bewellsp totally did not get the joke so so we were like techron sp just robbed us which is like this video shows up in the comment sections of any article or hacker news discussion about us with a probability of one its kind of like a ratching of godwins law thing it’s like look at these fucking douches with sunglasses it was a joke but it was dumb
+
+but yeah it’s tricky because when you want to say look there’s this whole future world when you get the money to do rap lyrics when you get the money to do lyrics in general you get the money for this broader idea of guiding you through and annotating and breaking down human culture
+
+we started with rap lyrics it’s very very hard if you were saying build a website that all it does it’s not that good all it does is give you the best meeting and most interesting facts about every line in the history of rap that’s all you have to do that’s very hard to do in itself but taking the sort of strengths and the software and the ideas that helped us build that and applying it to other places or what people were thinking
+
+and sometimes you tell people about that but other times whatever the work should stand for itself i’m not trying to tell people we’re going to do all this great stuff and here’s where we are and how we got the money it’s like whatever we’re going to try to do great stuff you’ll see it when it happens stay tuned is kind of how i feel
+
+andrew have you changed you attitude because of the flack you got from people asking are you crazy because it seems like it it almost feels like it it’s like you are apologizing for even wearing sunglasses at a conference when to me the attitude that you three have is one of the most exciting parts of your company
+
+tom i have no regrets i think at the time i felt a little differently about it my feeling on it is i think it is very important to not take yourself seriously i think you’ve got to crack jokes i haven’t been through that much i don’t want to say i’ve been through a lot but i’ve been through some things and i’ve seen some crazy things happen its called rap genius art and that has made me feel it’s very important not to take yourself too seriously
+
+now the other side of the coin to that is you have to take your work very seriously i think why are we here doing this stuff the work is the thing you know this goes beyond just like me wanting to build a project this is how i think about relationships how i think about friendships i think the best way to relate to other people to hang out with your friends is to be involved in a group project with them
+
+you’re spending all of your time working so why don’t you spend your time with your friends and when you’re sharing a struggle with someone that’s how you get a deep bond with that person so work i take very very seriously and it pervades my life so the problem is when you put on a display where you’re sort of not taking yourself seriously your risk people thinking you don’t take the work seriously
+
+i think if you know me if you’ve been at rapgenius and then you see me do something silly you’re going to get one idea but if you’ve never met me before if you’ve never come to rapgenius and hung out with the talented editors and contributors and engineers here and you see some display on tech register you’re going to get a wrong idea and that’s sad i wish i could just crack a ton of jokes
+
+andrew is that the part that really hurt you it doesn’t feel like it was the techcrunch part it was something else that made you change was it google banning you what is it because i am sensing a different person
+
+tom i mean i don’t know i’m just trying to figure out the right way to convey to the world what rapping is about which is tricky there are jokesters in a lot of ways like we are not like the site has a lot of jokes jokes are in the culture you know i don’t take myself very seriously but that’s combined with very much of an obsessiveness about close reading and textual analysis which is a weird combination to have in one person and in a group of people in a company culture
+
+and like expressing the multitudes we contain like figuring out a way to express that is like the journey that we’re going through and i think we’ve gone down too far in one direction then we’re going to go back and try to reach like a happy medium
+
+andrew and by the way it’s more than the sunglasses more than the clothes you wore it’s more than the phone on stage it was the things that you said and frankly i’m not even going to get into this because i don’t think i can do this justice and that’s the part that draws me to you guys as much as the frickin work
+
+i should never impose my point of view on an interview i should try to bring out from you more of your thinking more of who you are but as a fan of the site as a fan of your personality as a fan of someone who both grew up loving music and guys like the beastie boys who were irreverent and business the combination of the two that i see in you guys makes me feel like ahh this is the way i want to live my life just not exactly saying the things you say not looking like you do but being myself the way that you are and pushing it and having fun with it
+
+tom i appreciate that
+
+andrew you know what i got to get off my soapbox let’s end it with this here’s something that i didn’t expect at all we always ask guests do you have any books that you recommend because the audience ask for them most people have one book that they recommend you gave us four different books different kinds of books i should probably talk about one but i have through all of them for a reason
+
+tom sure
+
+andrew the first one for tech you said ‘code complete’ why
+
+tom so ‘code complete’ i read it way back when i first started programming on the referral of jeff atwood it’s funny because jeff atwood as an aside like jeff atwood is a bit of a hero of mine a big inspiration for rap genius was stack overflow and i kind of subliminally inspired by listening to every single stack overflow podcast
+
+so you know that was sick and it’s funny because jeff atwood is like a rap genius like hater and it’s tweets like antirap so he’s the one hater who i can’t like totally just let go off my back like i’m no jeff don’t hate me so jeff don’t hate me i love you dog you’re a true inspiration to me
+
+but you inspired me to read code complete what code complete taught me was what software engineering is about because when think and when i used to think about computer programming i would think about like algorithms like ok what computer programming or software engineering is about is coming up with a better algorithm to like sort a list or do something else
+
+and what code complete taught me was that algorithms is totally a red herring it’s not what software engineering is about at all what software engineering is building complicated systems that are easy to maintain
+
+and so one principle of code complete that i remember is like a well designed piece of software is one where you can make a change in one area with minimal knowledge of other pieces of functionality across the system and like stuff like that really was an eye opening experience in terms of what software engineering actually is versus what i originally perceived it to be
+
+andrew you know that’s one of the reasons why i wanted to bring this up because the way you think comes through so much in your book recommendations much more than i think any other question that i could ask
+
+for management you said “the hard things about hard things” why
+
+tom lehman ben horowitz’s new book i’m biased obviously because ben’s on our board and i’ve heard a lot about like sort of other versions of these stories and other stories but yes ben horowitz is someone who is down to talk about the fact that when you’re trying the entrepreneurship thing you’re going to cry you’re going to puke you’re going to throw up you’re literally going to throw up it’s so hard
+
+andrew have you literally thrown up
+
+tom i have thrown up absolutely
+
+andrew what made you throw up
+
+tom i dont know maybe i havent actually thrown up ive thrown up you know the stress of probably during like a fundraising type situation fundraising is one time where you can really seem like were great were screwed were great were screwed the google thing i didnt throw up during the google thing but i definitely experienced uh a lot of throw up type sweating patterns but yeah
+
+andrew so does ben make entrepreneurs throw up and then he writes a book about how you have to throw up
+
+tom well hes just down to be real about the human side of this thing which is that theres a very emotional human core to all of this and you have to pay attention to that
+
+so first of all ben is big on the talking the communication aspect which you have to appreciate like one on ones that was the influential to my thinking on this you’ve got to do one on ones you manage someone you’ve got to do at least a biweekly one on one where you meet with them once every two weeks at least maybe once every week
+
+and you have an agenda but at the end and throughout you say “how do you feel how do you really feel what else is on your mind you try to get people to say what they’re really thinking and what they’re really thinking isn’t that i’m messing with this hard code problem
+
+but what they’re really thinking is the person who sits next to me is making me feel weird and this other thing i feel weird about you and let’s talk about getting to the bottom of the emotional core like what’s actually going on in business even though people pretend that it’s not
+
+andrew the emotional core
+
+tom yeah it’s a big part of it
+
+andrew that’s one of my problems as an interviewer people pretend that it’s not i’ll talk to them on camera they’ll pretend that it’s not i will invite them afterwards to the office for scotch night and sometimes they drink water no scotch so it’s not just the alcohol and then they open up about that i’ll work on it i’ve got time here let’s do two others real quick “infinite jest” by david foster wallace why
+
+tom i love david foster wallace first of all obviously i’ve got his meme book but david foster wallace just mirrors my passions complicated fiction the english language like his — what was the essay he wrote on that review of garner’s minor american usage i forget the name of it but that was well written
+
+andrew i dont know that
+
+tom but also he has this great interest in the philosophy of logic and the philosophy of math he wrote this book “everything and more” which is a good book but also i really have a lot of intellectual interest in combination with david foster wallace “infinite jest” is this flawed monster masterpiece but first of all it’s very readable very very funny and then also this subliminal idea of footnotes and annotations context this is this book that has hundreds of footnotes it even took two bookmarks to read it
+
+and so david foster wallace is obsessed with footnotes and this comes up in “everything and more” as well i think subliminally that kind of got the juices the gears turning in my mind about annotation of course “infinite jest” is not the same thing because the annotations are still part of the text the annotations still exist within the fictional world
+
+so if david foster wallace verified annotations they would be written by the author david foster wallace who is explaining something about the work whereas the annotations the footnotes in “infinite jest” is still within the text so it’s a little different but still just breaking stuff down you take a little thing a little footnote and then it’s this huge expanse this huge thing where you can really cash out what’s going on that idea   
+
+andrew i can understand now why you considered being a lawyer
+
+tom right yes
+
+andrew all right the final one is a book that i’ve been wanting to read ever since i guess college when a friend of mine started reading it “power broker” but it’s so long that it’s intimidating it’s not directly applicable to business but it is still a very intellectual book that i think “when am i going to have time to go through the “power broker” you’re reading it now you’re about halfway through why
+
+tom well first of all a quick admission i am listening to the audio book
+
+andrew frankly even the audio book intimidated me because of the size what is it it’s a 50 hour book right
+
+tom it’s more than that it’s like 60 or 70 hours it’s very very very long intimidating it’s hard now since i live in the building in which i work i don’t have a commute and i used to listen to it on the subway but yeah it’s a great book about sort of   
+
+andrew the man who shaped new york
+
+tom the man who shaped new york go on the west side highway some time go drive any parkway part of what the “power broker” teaches you is kind of techniques in obtaining power applying power one great thing from that book is this great idea of how robert moses would get the money to build the jones beach recreation center or whatever he would do he’d say “give me a million dollars that’s all i need for the project”
+
+and then he would break ground he would start building and spend a million dollars and then he would go back and say “i broke ground i started building turns out i need 20 million”
+
+andrew laughs
+
+tom well then its like fuck man we gave you a million dollars basically robert moses explicitly or implicitly would say “well look are you cutting off my funding and now the million dollars is going to go to waste and you’re going to look like idiots because you approved the project without knowing what it cost
+
+andrew laughs
+
+tom it looks like put the shovel in the ground is his idea i think they’re some truth to that but it’s more about obtaining power and applying power is the lesson of what kind of person it turned you into to because if you look at robert moses and the type of person he was both in the intensity of his drive and how he dealt with people on the job in his professional life but also look at the way he treated his brother
+
+how calculating and cold he was in that thing was he ultimately happy is that a good way to live i think about this in business a lot especially when you’re dealing with people outside of your company whether it’s a vendor or an investor or a counterpart in some deal
+
+the right approach is often to be very very ruthless and push very very hard and advocate very aggressively for your own interests that is a hard thing to learn especially if you’re fundamentally a nice person which i think i basically am i’m not trying to be mean you have to train yourself to be really really really ruthless
+
+but the even more challenging thing is being able to do that in a business context without warping your brain into becoming like a ruthless upset mad person if you have to work yourself up to get angry to negotiate with someone and then you’re done negotiating and you go talk to your friend you’re not going to be able to totally become unangry or maybe you can then that also is creepy to some people
+
+like i’ll be in a mode where i’ll give someone extremely harsh feedback on something and then see the person an hour later at a company event and be totally friendly with the person that freaks people out being able to… just thinking about that i’m like what is the right way to orient yourself towards this thing given that to be successful you can’t just be nice to everyone all the time
+
+but you probably don’t want to turn into someone like robert moses who was just 100 ruthless and total animal but shaped new york
+
+andrew shaped new york…
+
+tom ……
+
+andrew in the end his legacy’s still there hey before i end i want to say thank you to a mixergy premium member the premium members are the ones who keep this thing going in return for keeping this going i give them the best freaking courses and interviews the most research the most prepared for that i possibly can
+
+i want to thank one of them mitch roth is a mixergy premium member and has been for a while when i asked him why he’s a premium member or what he got out of it he said “i was able to gain confidence that i too can play a role of an entrepreneur and strike out on my own adventure”
+
+that’s one of the things that i got out of reading biographies when i started in business and still do to this day i’m so proud that i can contribute that to mitch and to all these premium members if you’re not a premium member go sign up at mixergypremiumcom
+
+hey tom how cool would it be if one day this whole interview the transcript of it could be annotated like every part including the part where i didn’t ask a question all the way through and someone could explain what i was getting at or where i didn’t quote what you were saying but someone could explain what i was… i would love that
+
+tom let’s do it for real i mean i think on your site right you have the transcripts there
+
+andrew yeah i’ll give you the transcript but i don’t know that anyone would care about this
+
+you know one of my disappointments is the kind of music that i’m passionate about when i go to rapgenius there’s not enough on there i almost would rather people would focus on the old… what trips me up like i’ll suddenly get into heavy metal an old heavy metal wouldn’t necessarily be complete
+
+i would love for people even to complete that before they get to mixergy but if they could annotate mixergy oh i would love it
+
+tom let’s do it if you were interviewing kanye west it would definitely get annotated or obama it would definitely get heavily annotated with me maybe less so but i’m going to throw some annotation
+
+we can put some verified annotations on there so if someone watches the show if you’re watching this right now… how about that if you’re watching this right now head over to rapgenius and search for it and you’ll see the behind the scenes stuff
+
+andrew i would love that
+
+tom ……
+
+andrew and i will come in and i will annotate along with people but i’d like someone else in the audience or someone to… yeah someone in the audience to help get this going so it’s not like my project just for myself
+
+i want to see that they care i would love that i think that there’s room to go beyond music into annotating thoughts what did we miss what didn’t we get into you guys are welcome to copy this and do whatever you want with this
+
+thank you so much for doing this interview i’ve been a big fan i ran over when i saw that you were on the agenda right now because i just freaking love the product i love the product
+
+tom i appreciate that thanks well you know i appreciate the love and i appreciate that you like some of the crazy vibes we’ve put out in the past you know there’s more craziness to come…
+
+andrew i hate that you say “in the past” it hurts me to hear that it hurts me to hear that…
+
+tom well…
+
+andrew …it feels…
+
+tom recently and not so recently but more craziness is to come i promise
+
+andrew i would like that i mean i just don’t want to see… rapgenius i think the founders this is… i don’t care if it sounds like i’m kissing butt there’s no reason for doing it because we’re at the end of the freaking interview i think people are missing the point
+
+i think if you’re really into music i think if you’re specifically maybe into the kind of music i am there’s a meaning behind music when there isn’t meaning i don’t give a rat’s ass about it but when there’s meaning about it it’s a form of self expression a form of inner depth a form of leaving your mark on the world
+
+and when i see the way that you guys carry yourselves i feel like you’re doing it no more than you can say the beastie boys stink because of this line that they said about girls should do the laundry you can’t analyze them based on that you have to take them complete with who they are the time they’re in and the message that they have to communicate
+
+i feel the same thing needs to be done with entrepreneurs frankly if you guys start to hold back what the hell’s the point for the rest of us right
+
+tom true it’s our responsibility i’ll…
+
+andrew please carry that responsibility to the whole otherwise we’re all dead
+
+tom whew
+
+andrew all right thank you so much for doing this interview
+
+tom oh it was great thanks for having me
+
+andrew you bet
+
+tom can’t wait to see it
+
+andrew thank you
+
+tom yeah
+
+andrew thank you thank you all for being a part of it bye guys11embed"

@@ -1,0 +1,871 @@
+id,song_name,artist_names,album_name,lyrics
+34ThpGNAGG34ONgx1dLzUs,The Blue Channel - Remastered,Taking Back Sunday,0gBSoXYKsE3HHZNbgMPnEg,"1 contributorgoogle io 2014 — keynote lyricsladies and gentlemen please welcome senior vice president android chrome and apps sundar pichai
+
+sundar pichai — senior vice president for android chrome and apps
+
+thank you everyone its great to see all of you welcome to google io every year we look forward to this date weve been hard at work since last io evolving our platforms so that developers like you can build amazing experiences so thank you for joining us in person
+
+io is a pretty global event we have viewing parties in over 597 locations in 85 countries in six continents and there are over one million people watching this on the live stream today lets say hello to a few locations
+
+london hello london
+
+lets say hello to brazil everyone is talking about brazil today so if it werent for io i would be there for the world cup im tempted to shout goal
+
+finally lets go to nigeria where we are thrilled to have an allfemale developer group in nigeria we are working hard to elevate women in computer science so look forward to seeing what they develop one day in fact at io this year we are very excited there is over 20 female participation which is up from 8 last year
+
+and even more excited we are joined by over 1000 women in this room today so thank you
+
+of course io is when we talk about our two large computing platforms open platforms android and chrome which are built from the groundup for developers like you today we are going to give you an update on the momentum we are seeing in mobile we are living in amazing times so we want to talk about the mobile momentum we see and how we are evolving our platforms to support that momentum and more importantly we are beginning to think and evolve our platforms beyond mobile you will hear about that from us today
+
+and finally we want to talk to you as developers as to how you can achieve success on top of our platforms including an update on google cloud platform and google play so lets get started
+
+if you look at global smartphone shipments the numbers are stunning the industry shipped over 300 million phones last quarter so theyre on track to ship well over a billion phones each year
+
+so how is android doing in the face of this momentum so in the past we have talked about cumulative activations of android we are switching and focusing on 30dayactive users users who are currently using their android devices globally and you can see the number has been doubling every year we have gone from 220 million to over 530 million as of last years io we are very excited as of this years io we are over one billion 30dayactives users
+
+the robot is pretty happy as well so lets internalise what one billion users actually mean android users on a given day sent over 20 billion text messages each and every day more importantly perhaps they take around 93 million selfies every day the team tells me about 31 million of these are duck faces we estimate android users take around 15 trillion steps per day and they pull out their phones and check it over 100 billion times each day important use cases which we are working on addressing and youll hear about it later today
+developers are building profound experiences on top of smartphones stories we hear every day a few examples in kenya 40 of kenyas gdp flows through mpesa giving unbanked people access to financial transactions throughout the country netrag a company uses a smartphone and just off the shelf accessories to measure your eye prescription and they are as accurate as 50000 equipment you find in optometrist offices providing very very affording care to many people
+
+and finally university of michigan they are using for their patients they monitor subtle changes in voice quality using their smartphone to detect early signs of bipolar disorder so the kind of experiences we are seeing on top of these phones are amazing
+
+so far ive been talking about phones lets shift to tablets
+
+we are seeing amazing growth in android tablets as well so there is tremendous adoption of these devices and if you look at how we are doing visàvis the overall market android tablets accounted for 39 of all shipments two years ago that number increased to 46 as of last years io
+
+as of this years io android tablets account for 62 of the overall market we dont include other variants of android like kindle if you add that it would go up a few percentage points you know these are shipment numbers again we care about usage so we view these as leading indicators of where usage would be
+
+if you take a look at tablet usage were going to use youtube as a way — as a proxy to understand usage a year ago the total tablet viewership of youtube 28 was from android that number has gone up again to 42 so we are seeing usage track shipments and we are very excited people are adopting these devices as well
+
+another metric of engagement is app installs app installs just this year alone on tablet is up by over 200 so people are really engaging with these devices
+
+so we are very excited we have a billion users but we talked about this at last years io our goal is to reach the next five billion people in the world if you look at a map of the world today all the regions in blue emerging markets majority of users dont have a smartphone
+
+when i go back home to india and other countries like that — thank you — it is exciting to see the impact phones have on peoples lives but its disappointing that only less than 10 of the population have access to smartphones we want to change that so weve been working hard with our ecosystem for — on a very important initiative which we call android one
+
+so let me talk to you about android one
+
+what we are doing for the first time if you look at all the oems in these countries each of them has to reinvent the wheel and in the fastpaced mobile industry they have to build a new smartphone within nine months so we want to pool resources and help everyone so we are working on a set of hardware reference platforms we identify the components which go into a nextgeneration smartphone these are highquality affordable smartphones we qualify vendors so that we provide a turnkey solution for oems to more easily build a smartphone
+
+in addition to hardware we are working on software as well so the software on android one is the same software you see running on stock android nexus phones and google play edition phones in addition through play we allow oems and carriers to add locallyrelevant applications on the device which users have full control over
+
+and finally we provide full automatic updates all the software in android one comes from google  so we will keep them updated just like we do with nexus and google play edition phones
+lets take a look at one example device which we are working on
+
+so this is a device with micromax you can see it has a 45inch screen it has features which matters to a country like india dual sim removable sd cards and fm radio im used to cuttingedge phones and ive been using this phone for a while and it is really good and it costs less than 100
+
+we are working with many partners we are going to be launching this around the world but we start this journey in india and we are launching this with three oems in india in the fall of this year micromax karbonn and spice we are also working with carriers in these markets to provide affordable connectivity packages with these devices
+
+what we are excited is this is a leveraged turnkey solution so that at scale we can bring highquality affordable smartphones so that we can get the next billion people access to these devices and we cant wait to see the impact that it would have
+
+so we have talked about the momentum in mobile the next thing we want to talk to you is about how we are evolving our platforms android and chrome and today for the first time since we launched android with open sdk we are going to give you a preview of the upcoming l release you will be able to download this later on your development devices weve been working very hard this is one of the most comprehensive releases we have done it has over 5000 new apis and we are thinking about l release not just for mobile but for form factors beyond mobile
+
+one of the things as we thought about l we wanted to take a radical new approach to design user experiences are evolving rapidly and we wanted to rethink the user design experience in android to have a fresh bold and new look
+
+to talk about the design for l let me invite matias duarte
+
+matias duarte — vice president of design
+
+thank you sundar design is essential in todays world it defines your experiences and your emotions so we challenged ourselves to create a design that was not just for android phones and tablets we worked together — android chrome and across all of google — to craft one consistent vision for mobile desktop and beyond we wanted a design that was clear and simple and that people would intuitively understand
+
+so we imagined what if pixels didnt just have colour but also depth what if there was an intelligent material that was as simple as paper but could transform and change shape in response to touch and this led us to a way of thinking that we call material design
+
+we drew inspiration from paper and ink however unlike real paper our digital material can expand reform and reshape intelligently material has physical surfaces and edges because the human mind is wired at its most primitive level to instinctively understand objects and their relationships these scenes and shadows provide meaning about what you can touch and how it will move
+
+in the real world every small change in position and depth creates subtle but important changes in lighting and shadows so as part of the l preview well now allow app developers to specify an elevation value for any ui surface and the framework will render it in correct perspective with virtual light sources and realtime shadows
+
+patrick brady
+material design is beautiful and bold because clean typographic layouts are simple and easy to understand your content is the focus so the l preview will allow app developers to easily colourise all framework elements in your app to match the theme to your brand and were previewing a new support library that we call palette to easily extract colours from images and really put those vivid pictures front and center
+
+were giving designers familiar tools like baseline grids that work across screens grids ensure apps have a consistent rhythm and character and this will allow you to start with a design on a phone and logically and easily bring that same design to tablets and laptops
+
+now one design doesnt mean one size fits all our guidelines allow you to appropriately adapt the ui so your users will already know their way around your app no matter what screen they use it on
+
+and weve also updated our system font roboto so that designers and developers can use one type face designed and optimised for every screen from your watch to your laptop to your television
+
+so now lets talk about animation its delightful when your touch is rewarded with motion and material surfaces slide around with the physics of card stock but they respond to touch with splashes of virtual link that are like ripples in a pond
+
+as part of the l preview all of your applications ui building blocks have been updated to include rich animated touch feedback and no detail is too small to bring a smile to your face like when the reload button loops around or the playback controls can change
+
+finally in the real world nothing teleports from one place to another and thats why its so important to animate every change on screen in a way that makes sense in the l preview android developers will now be able to create seamless animations from any screen to any other between activities and even between apps
+
+so youre probably wondering how this looks like in practice were going to give you a sneak peek at one of our familiar google applications in the new material design
+
+here you can see step by step how we update the design the typography the grid changes and finally the surfaces and bold colours
+
+and a few small changes make a really big difference and you can also see how easy it is to take a same design to different screens now ive talked about only a few of the highlights of material design and just some of the apis that you can try out in the android l preview
+
+but as you know people spend an enormous amount of time on the web and especially the mobile web last year at io we announced polymer which is a powerful new ui library for the web today were bringing you all of the material design capabilities to the web through polymer as a web developer you will be able to build applications out of material design building blocks with all of the same surfaces bold graphics and smooth animations at 60 frames per second
+
+so between the l preview and polymer you can bring the same rich fluid material design to every screen and to help you take full advantage of this framework weve also completely redesigned and created one unified set of style guidelines for every screen and for all devices these guidelines will help designers and developers alike understand best practices and build consistent beautiful experiences
+
+were releasing the first draft of these guidelines as part of our preview today at googlecomdesign
+
+now that youve seen our new look and feel id like to invite dave burke to show you some of the new features in the android l developer preview
+
+dave burke — android director of engineering
+
+all right so over the last eight months our team has been busy cooking up the biggest release in the history of android and as sundar mentioned weve added over 5000 new apis touching nearly every aspect of the system
+
+now we dont have time to even come close to covering everything in l today so instead what i like to do is walk you through some of the highlights of the tremendous steps were taking on the user experience and on the performance of the android platform
+
+so lets start with user experience now bringing material to l is of course a big part of what were trying to do here weve added a new material theme so its a new style for your application that includes new system widgets transition animations and animated touch feedback
+
+weve also added new animation support so a new drawable for animated ripples a reveal animator to animate a clipping circle to reveal views and weve extended views to not just have an x and y component but also a z component to provide elevation so you can float elements of your ui and the framework will cast a realtime shadow for you
+
+my favorite feature that weve added in support material is the ability to customise activity entry and exit animations you can even include share here elements for example an image that starts in one activity and animates seamlessly through translation and scaling into another
+
+so lets take a look at this in practice lets have a look at now were all familiar with which is the phone dialer thanks marcelo
+
+okay so the first thing you will notice when you fire up the phone dialer are those bold material colours and shadows and you will see the ripple touch effect as i touch each of the tabs and you get a more subtle material touch effect on the recent calls youll see that the dialer button has is elevation sets so its floating above the ui and as i tap it you get these really nice delightful animations
+
+now another feature we added to support material is something we call nested scrolling and the idea is as i scroll we propagate the scroll events up the view hierarchy and different parts of your views can respond differently so for example as i scroll upwards here you will notice that the recent call to marcelo will start to shrink and disappear then the search box will start getting pushed upwards and the tabs will lock into place its a really nice effect
+
+so lets go over to the dialer so it turns out my moms a big fan of material design i need to go call her up and tell her about how to set elevations on her views i know she loves that so lets get start dialing you will see that ripple touch effect again emanating out from the buttons then when i go to place a call you will see a view animator and will animate into the — in call screen like so so its a really nice effect
+
+okay so thats a quick taster of material in l and what youre seeing here is really a sneak peek of work in progress we wanted to give you guys early access so you could start bringing material to your apps
+
+and we also recognise the change in the ui in such a big way will take some time so we started with a dialer as a showcase over the coming summer months well be extending material to all aspects of our apps and the system and the result is going to be a dramatically enhanced fresh user experience
+
+okay so another area where weve improved the user experience on l is around notifications one of the most frequent reasons we all take our phone out of our pocket everyday is to respond to incoming notifications we all do this dozens and dozens of times a day so we wanted to streamline the process everything from the phone buzzing to you acting on the notification
+
+in l we give you instant interactive access to notifications right from the lock screen so now you can read open and dismiss in seconds
+
+so lets take a look at my device the first thing youll see are all my top notifications on the lock screen and were rendering them as sheets of material they animate really beautifully if i touch them you can see that material touch effect
+
+now in l weve improved the way android organises and prioritises notifications by analyzing this behavior to make sure only the most useful relevant notifications are presented to you i can swipe down and i get my full list of notifications and weve done a clever thing here where weve merged the notification shade so something thats been in android since 10 with the lock screen
+
+and so from here i can double tap on a notification to launch the corresponding app or if there is something i dont need i can just dismiss with a single swipe and to unlock the phone well this is just the notification shade so you just swipe it away and youre straight into the device fast and simple
+
+weve also introduced a new type of notification in l that we call the headsup notification and this can be used to let you know about something urgent without interrupting what youre doing so lets say im playing any new favorite game piano tiles and im going along here id get my highest score ever and then all of a sudden i get a call from marcelo so from here i can keep going or — if i want to act on that like nonscript or if i am busy swipe it away and then i can go back to my game and get the highest score i ever got in public yeah all right thats actually my worst score ive ever got
+
+okay anyway lets move on so while weve made the notifications more powerful if youre one of the approximately 15 of people who has a pin or pattern lock you waste many minutes a day cumulatively on that thinly task of entering your pin so we figured theres got to be a better way
+
+in l were introducing a new concept we call personal unlocking and personal unlocking enables the device to determine if its in a trusted environment say in the owners hand or beside the owner on a table person unlocking uses signals such as locations you designate bluetooth devices that are visible even your unique voice print so for example lets have a look at this device thanks marcelo
+
+so i currently have a pattern unlock on this device but because im wearing a bluetooth watch my phone knows its me who is present and so it doesnt challenge me with an unlock so for example if i just swipe up the phone will unlock just like that
+
+now let me just reset that if i take any watch off let me just hand it to marcelo okay so now my phone can no longer see the watch and because of that my phone cannot ascertain thats me who is present as a result my phone will lock down its security so now when i go to unlock the device it presents me with a pin lock its a really great feature
+
+so thats a few of the user experience improvements weve made to support material and notifications
+
+another area of l where were significantly improving the user experience is around how weve integrated the mobile web into the platform so to learn more let me invited up avni shah to the stage
+
+avni shah — director of product management
+
+thanks dave a core part of your experience with mobile devices is the mobile web just to get a sense of the growth that weve been seeing at the beginning of last year we had 27 million monthly active users of chrome on mobile today we have more than 300 million thats 10x growth yeah its awesome its 10x growth in just the last year alone
+
+what that means for us is that we need to make the mobile web work well for our developers and our users today im going to talk about three ways were going to do that
+
+were enabling material design experiences on the mobile web were redesigning recents to help you multitask and were extending our capabilities of app indexing to help people get to where they want to go faster
+
+first lets talk about material design one of the big parts of your experience with the mobile web is obviously the web sites themselves they need to work well they need to look great they need to be fun to use you heard matias earlier talking about the philosophy of material design a bold consistent intuitive experience that just works across screens weve been working really hard at making those experiences not just possible but the new standard for the mobile web
+
+to show you what this looks like my good friend tom here is going to walk us through an exploration of googlecom search results on the mobile web reenvisioned with material design
+
+so tom lets go ahead and do that search for a starry night
+
+now the first thing that you see here is that this panel is rendered as a beautiful materialstyle card you notice the use of colour the title is on a blue background that was actually programmatically matched to the painting if tom clicks on expand the card youll notice it filled the screen with a continuous animation if he scrolls the header will shrink it wont pop into place but it has a smooth animation that just makes sense
+
+now lets go ahead and click on the suggestion at the bottom to get more of van goghs artwork youll see those search results also smoothly animated into place tom is going to continue to give us some demo eye candy over here
+
+and while this is just an exploration that youre seeing i want to mention that this is fast fluid continuous animation at 60 frames per second this thing was — just wasnt possible a year ago
+
+weve been working really hard at improving the performance and predictability of the platform to make things like this possible for example this demo shows off the work that weve done on touch latency giving you as a developer notice the touch events earlier in the frame so you have more time to act
+
+as matias mentioned earlier with polymer — our ui toolkit for the web — all of you can build web experiences that feel as awesome as this
+
+the next big area weve been thinking about is how to help you multitask and we think the recents feature in android is one way we can actually make this easier especially as tasks across the web and apps as they often do so once again tom is going to walk us through the changes here
+
+so tom lets go ahead and click on the recents icon in the lower right now as tom scrolls through the first thing that you will notice is recents has also been grounded in material design youll notice the overlapping cards have been rendered with realistic shadows and perspective
+
+but there is another thing going on here that may not be immediately apparent toms chrome they also sit here as well hes been researching restaurants to go in sf so he has articles from the new york times and sf chronicle here is individual items youll notice the site icons and the fav icons there
+
+as he scrolls back of it further youll notice he has been researching in the urbanspoon app he has docs up opening where hes been collaborating with some friends
+
+so lets go ahead and click on that doc and see what your friends have to say
+
+ive heard great things about state bird provisions lets check out that article here now what you see here as this loads this is actually loading as a web site in chrome youll notice the url up at the top now tom pops it back into recents that page is now listed there along with all of his other open stuff
+
+i want to point out what the big difference is here this is a view you couldnt get before today if you wanted to get to all your open websites youd have to go into chrome and kind of flip through them there but by bringing all of your individual chrome tabs here and listing them in your recents view were making it really easy for you to move between the web and apps making multitasking just that much easier
+
+and last but not least this change to chrome is actually built on top of a new api in l that allows apps to populate multiple items in recents so for all you app developers if this kind of thing makes sense for you you can make use of it as well
+
+going a step further were also making it easy for you to find content using google search whether its deep in the web or deep in an app so last fall we announced app indexing as a developer this capability lets you get to app content lets you get your users to app content directly from the search results page since then weve been working on a ton of ui improvements and extending some apis to make this more powerful
+
+but let me just give you a quick refresher of what this capability enables so lets go ahead and do a search for waterbar restaurant ive heard good things about it over by the embarcadero as tom scrolls through the search results youll see close to the top theres a link for the home page to waterbar and near the bottom of the screen theres — oh actually in the middle of the screen theres a result for opentable
+
+now whats different about this ui is its linked to opentable instead of going to the website its actually going to take us to the opentable app because tom happens to have the app installed
+
+so lets go ahead and click on that link and youll see it takes us directly to waterbar within the opentable app up until now this was only available to a few applications but today were opening it up to all android app developers globally along with some tools to get you started
+
+and going further if your site requires — sorry if your app requires your users to sign in youll be able to use google signin in the coming months to have your public content show up in search as well you know we thought this would be even better if we could help your users rediscover content that theyve already found in your apps so were adding a new api in google play services to do just that
+
+so lets quickly show you how this works tom found this really cool 3d tour of the ferry building earlier and he wants to get back to it so starting with the search box on his home screen hes going to do a search for ferry building and what you will notice at the bottom of the screen is there are search suggestions for ferry building marketplace in the google earth app and this is there because this was the app that he was using when he found that tour before even if he himself didnt remember with a single click hell get taken directly to the tour of the ferry building within the google earth app
+
+now this is possible because the app is making its content available based on its users previous actions we just showed you this with google earth but any app that utilises this new api will have the same capability for developers we think this is a great way for you to help your users rediscover content right when theyre looking for it
+
+with that ill hand it back to dave who is going to take you through more of the enhancements you can look forward to in l
+
+dave burke – director of engineering android
+
+thanks avni so weve covered some of the highlights of the user experience but theres lots of other user experience improvements in l for example the new keyboard ui do not disturb mode your quick settings and much much more
+
+android virtual machine
+
+but in the interest of time lets move on to the second major theme of l and thats performance lets start with the android virtual machine so you might remember that we made a very early version of our new runtime art android runtime available as a developer option in kitkat but we got some really great feedback from you guys as well as some excellent open source contributions from arm and intel and mips and im excited to say that were finally ready to pull the trigger on this bad boy because the l release runs exclusively on the new art runtime
+
+so we wrote art from the groundup to support a mix of ahead of time aot compile justintime compile and interpreted 6code its truly crossplatform so it supports arm x86 and mips we put a lot of effort into optimizing arts backend compilers and this has resulted in a 2x improvement performance over dalvik and best of all this one is on us you dont have to make a single change all of your app code just gets the performance improvement for free
+
+art also has a brandnew garbage collector and memory allocator so this dramatically reduces the number of pauses and duration of pauses associated with a garbage collection event as a result your app runs more smoothly so if you take a look for example at google maps on both dalvik and art first youll notice the number of pauses have reduced from two to one but also the pause duration has reduced from roughly 10 milliseconds down to about 2 milliseconds to 4 milliseconds so now it fits comfortably in a desync window no more application stutters
+
+and theres more art doesnt just bring better performance its also more memory efficient so its smart about when the app is put into the background in which case well apply a slower but more intensive moving collector to save anything from hundreds of kilobytes to many megabytes
+
+and finally art is fully 64bit compatible in fact weve adapted and optimised the entire platform to take advantage of the new 64bit architectures so now you can benefit from larger number of registers newer instruction sets and increased memory addressable space
+
+so to take advantage of 64bit weve added support for new apis in the ndk so armv8 x8664 and mips64 and of course if your app is written in java then it will work with absolutely no modification on new 64bit hardware
+
+okay so thats cpu performance the other side of the coin is gpu performance graphics and im really excited about some of the things that were doing in l in this area
+
+so historically mobile graphics has lagged to desktop by virtue of the fact that mobile gpus are smaller and more powerconstrained but thats changing quickly mobile gpu performance is catching up with console graphics and even pc graphics so in l we specifically wanted to close the gap between desktop dx11class graphics capabilities and mobile and were doing that with something we call android extension pack
+
+so we set out to work with gpu vendors including nvidia qualcomm arm and imagination technologies and together we define the android extension pack so its a set of features that includes things like tessellation geometry shaders computer shaders and advanced astc texture compression
+
+so lets take a look at the android extension pack in action and what youre about to see is epics unreal engine 4 desktop rendering pipeline running on android l on the latest nvidia tablet hardware now the android extension pack enables much more advanced shaders so we can have more realistic environments more realistic characters and vastly improved lighting
+
+so lets go start this off we have a bit of a flicker here
+
+well if youre squeamish you might not want to look now
+
+so you have to excuse some of the flickers its a vertical electromagnetic storm up here
+
+okay so as i mentioned this isnt just cutscenes actually live and we can play it through the world hopefully we can get that up in a moment some of the rendering that you saw that it was truly incredible so there were really amazing reflections in the water lighting effects tessellation were being used for the smoke effects
+
+and starting with the l release in the fall youre going to see new highend tablets and phones shipping on android with this level of graphics capability so quite literally this is pc gaming graphics in your pocket
+
+the last performance enhancement i want to take you through is on battery and weve worked hard to make sure that the battery keeps up with the performance and of course there are variety of systems and components that tax the battery on a modern phone or tablets so wifi radios cell radios gps gpu et cetera
+
+and you might remember weve had some previous efforts to improve quality on other releases so project butter for ui smoothness and jelly bean project spell for memory for print in kitkat
+
+well in the same team and brought to you by those same project naming geniuses we have project volta and the goal of project volta is to optimise how the extensive subsystems of the device are used and to improve overall battery life so the first thing we did was improve our instrumentation of battery data you cant improve unless you can measure so we created the tool that we call battery historian and it helps you visualise on a time axes the battery usage information
+
+now you can correlate battery discharge with what was happening to the device at the time so heres an example of battery historian from a real device and on the top graph you can see an issue where the radio is waking up approximately every 20 seconds but battery historian helps us quickly identify the issue so we could fix it and therefore improve battery life in fact were using this tool to make this system in google apps more efficient so — and we can expect a significant battery improvement in l
+
+weve also added a new jobscheduler api to help you optimise power consumption in your apps so using the jobscheduler api you can make your application more efficient by allowing the platform to call less nonurgent network requests from multiple apps as a result the platform can keep the radio asleep a higher percentage of the time thus saving significant power
+
+so you can use the jobscheduler api for your app to schedule a maintenance task while the phone is connected to the charger for example or also even just to download application updates im sure youve all had that experience where youre out and about your battery is about 4 and then applications start updating themselves its like no and then finally weve added a new battery saver mode in l
+
+so battery saver allows you to clock down cpu the refresh rate even turn off background data to conserve battery and you can trigger it manually or configure it to come on automatically when the battery level is low so battery saver is really great if youre about to embark on a long hike or maybe a long protest and say you want the battery to last even longer
+
+so on the nexus 5 running in battery saver mode you can extend your battery life by up to 90 minutes of usage within a typical single days use
+
+so i just gave you a quick whirlwind tour of some of the highlights of l how were improving the user experience through steps like improved design smarter notification and intuitive authentication and also the enhancements on the performance side so faster run time better graphics and stronger battery performance
+
+but i only scratched the surface of l and as i mentioned at the start this is our biggest release to date youre going to find things like better multitasking bluetooth 41 burst mode camera api usb audio support and much much more
+
+tomorrow morning were going to be making the l developer preview sdk available from developerandroidcom and also posting early system images for the nexus 5 and nexus 7 so you can start developing for l today
+
+so with that let me hand back to sundar thank you
+
+sundar pichai
+
+thank you dave as dave said the l release with 5000 new apis is one of our most comprehensive and we are very excited we are sharing it today
+
+we have a whole new design with l tons of ux features and a whole slew of performance improvements when you take a step back and you look at what we are doing with android the approach we are taking is very unique and distinctive we arent building a vertically integrated product what we are doing is building an open platform at scale we work with hundreds of partners globally to bring the product and the platform that touches billions of people and we want to do it in a way in which we are innovating at a very very fast pace
+
+if you take a look at the innovation thats happening in android and if you look at some of the recent announcements from others you can see that things like custom keyboards widgets those things happened in android four to five years ago we are working very very hard to bring an open platform and innovate on it at an unprecedented scale we want to make sure we ship these features to users as fast as possible thats where 3google play services come in
+
+google play services ships every six weeks and 93 of our users are on the latest version of google play services across all versions of android in fact by shipping every six weeks we in many ways can iterate faster than typical os release cycles while its open platform and we want to innovate fast we want to make sure its very very secure as well so we take security very seriously
+
+lets take an example at malware production in google play we automatically scan every single application for malware and if users opt in we even scan applications from outside of google play to make sure they are malwarefree given the popularity of android theres a whole vested industry given theres a lot at stake around security but based on every data we see well well less than half a percent of users ever run into any malware issues and increasingly we are pushing security updates through google play so any security updates related to google server communications we are now pushing those updates through google play services so that we can get them to users within six weeks
+
+with l we are also launching factory reset production so that if your phone gets stolen users have full control to disable their phones
+
+finally privacy is an important part of security so with l release for the first time we have a centralised setting what we call universal data controls where users can go and manage their important privacy protections they can control data that is shared from the device like location history et cetera and so we are doing that in l as well
+
+so far we have been talking about l release in the context of mobile phones and tablets but users increasingly are living in a multiscreen world you are using other connected devices the television in your living room youre increasingly wearing things on your body you are — when you get into your car you expect a connected experience we want to work to create a seamless experience across all these connected devices
+
+so with l as well with chrome we started laying some foundational principles on how we evolve our platforms to support these new connected experiences so here are a few principles
+
+we are making everything contextually aware we want to understand whether youre at home with your kids and you want to be entertained or youre at work trying to be productive or maybe you are traveling we want to bring the right information to you at the right time we want the experience to be voiceenabled we are building the most advanced voice recognition infrastructure in the world and we want to help users interact with computing devices in an intuitive way for example when they are driving or cooking we want voice to be a major source of input we want the experience to be seamless it shouldnt matter which device you were using before we want to pick up where you left off
+
+and finally users always have their smartphone so we want to make sure all these connected experiences work based on your smartphone be it your wearables be it your car or like we have shown with chromecast via television
+
+so both with l release and chrome we are bringing a whole set of new experiences to many connected screens around you the first area we are going to talk to you about is wearables
+
+about three months ago we launched our preview of android wear we announced a developer sdk and the reception has been very very positive to give you a further update im going to invite david singleton onto the stage
+
+david singleton — android director of engineering
+
+were right at the beginning in a new phase in the miniaturisation of technology which means that its finally possible to make a powerful computer small enough to wear comfortably on your body all day long and theres a huge opportunity to bring rich user experiences to these devices and thats why were building android wear as our platform for wearables based on android
+
+android wear makes it easy for developers to reach users on this new form factor using precisely the same tools were already familiar with on android phones and tablets people will be wearing these small powerful devices so style is important and thats why android wear supports both square and circular screens and we think that there will be a wide variety of fashionable designs
+
+sensors will help them understand your context so they can provide useful information when you need it and help you reach your fitness goals and as the device that you always have with you your watch will also provide intelligent answers to spoken questions and as dave showed us earlier act as your key in a multiscreen world
+
+across the world people check their android phones an average of 125 times every day and thats why weve designed android wear to quickly show you relevant information and make sure you never miss an important message while letting you stay engaged with the people that youre actually with we do this by working to understand the context of what you care about while enabling very brief interactions with the device
+
+heres a live demo on the lg g watch you can see that it has an alwayson display that at any given time shows you the most important thing we know for you so jeff it looks like your flight to brazil for the world cup is on time i guess you do deserve a break after this big demo and if jeff wanted to see more he can simply raise his watch or tap the screen to switch into vibrant full colour that youre already seeing here
+
+throughout the day if jeff receives a notification which buzzes his phone his watch will vibrate on his wrist and show him whats up at a glance so he wont miss an important message like this one swiping up and down navigates you through this stream of cards which includes information from google now apps running on jeffs phone and apps running directly on the wearable itself and when theres a page indicator jeff can swipe horizontally to see more details
+
+you can see that weve applied material design here the cards float above beautiful textured backgrounds and just like in your phones notification shade you can swipe a card away to remove it from your screen lets take a look at jeffs phone and that notification has disappeared
+
+back at the watch face pressing and holding lets you choose a different one you can see that theres a broad selection of analog and digital designs in a variety of styles to suit your tastes okay now that were acquainted with the overall ui model lets see how android wear can work for you
+
+imagine that jeff has just got up in the morning he swipes up and sees the weather forecast for the day his commutes not looking too bad and oh look jeff i guess you need that package for your trip to brazil you better not forget to pick it up
+
+jeff
+
+okay google remind me to check my mailbox when i get home
+
+david singleton
+
+if we can see jeffs phone at the same time youll see this is immediately synced across and in this case his watch was smart enough to know where home is a little later on as jeff is arriving at the office his watch vibrates again with a chat message from one of the team he can see who its from and what hes saying all without having to fumble around and get out his phone your watch and your phone stay in sync when you swipe away a notification on the watch it disappears from the phone as jeff is showing now
+
+its super convenient and apps will stay in sync too while jeff is making his lunch he finds it really hard to get the last peanut butter out of the jar and he comes up with an idea possibly a very brilliant one that he wants to remember
+
+jeff
+
+take a note double sided peanut butter jar
+
+david singleton
+
+watch his phone well try that one more time
+
+jeff
+
+take a note double sided peanut butter jar
+
+david singleton
+
+i guess the universe doesnt want there to be a double sided peanut butter jar after all
+
+so moving along that note would have been saved immediately to his phone and he can get on with his lunch in the evening jeff is having dinner with a friend at a restaurant if hes unfamiliar with one of the ingredients on the menu he can just say…
+
+jeff
+
+what is limburger
+
+david singleton
+
+so it looks like limburger is a type of cheese jeff is lactose intolerant so hed better order something different or this dinner could go wrong and when jeff receives a phone call his watch will vibrate and he can see who is calling at a glance its another one of jeffs coworkers now jeff could get out his phone to answer but since hes busy he can either swipe to reject the call from his wrist or swipe up to choose from one of these sms replies his phone sends the sms and hes done
+
+sometimes youre enjoying dinner so much that you want to avoid any more interruptions and for that you can set donotdisturb with a single downward swipe from the top of the screen
+
+and now jeffs watch wont buzz again until he wants it to later that night jeff arrives home oh thats right your package is here now that hes at home the reminder that jeff created this morning has triggered
+
+you can also use android wearables to control other devices around you lets listen up with a bit of music
+
+jeff
+
+play some music
+
+david singleton
+
+now you will see that jeff has music controls on his watch he can see what song is playing he can pause the music or skip to the next track and while its playing the album art is beautifully displayed right there on his wrist
+
+finally at the end of the day its time for bed
+
+jeff
+
+set an alarm for seven am
+
+david singleton
+
+with glanceable notifications and quick voice actions android wear gives you what you need right when you need it lets take a closer look at some of the contextual information that android wear provides when youre traveling so jeffs about to leave on that big trip to the world cup its the morning of his flight so his phone is already displaying relevant information for his trip he can see his flight status and even show his boarding pass his hotel address will be there when he needs it and he knows whether or not he will need to pack an umbrella it does look like its going to rain in brazil on friday
+
+and once hes in brazil android wear continues to give him useful timely information at a glance whether its his restaurant reservation the time back at home so he knows when to call his family or the local bus schedule and while hes walking around the city jeff can see how many steps hes taken today along with a step count history for the week on devices that support it he can even check his heart rate after a jog
+
+so weve shown you what android wear can do out of the box were even more excited to see what developers build on top of this platform the android wear sdk enables you to build glanceable contextual apps for this new category of device lets talk through the capabilities it gives to developers and then well show you some examples
+
+right off the bat android wear automatically bridges notifications from your android phone or tablet directly to your watch now androids notification apis already allow you to build beautiful user interfaces with big pictures actions and more and there are hundreds of thousands of apps delivering billions of these notifications everyday and now theyre available on your wrist
+
+back in march we released a developer preview enabling apps running on the phone to add things like voice replies have several pages and group notifications in bundles with these additions you can begin to provide a tailored experience for wearables and weve used these features to add wear support to google apps like hangouts and gmail and theres been a huge response from developers
+
+the very best wearable apps respond to the users context put glanceable cards on the screen and allow the user to take direct actions in just a few seconds here is one of my favorite examples with pinterest you can follow other peoples pins pinterest app will let you know when youre near a place that has been pinned by someone you follow so jeffs friend susie loves korean barbecue and shes somewhat of an authority on the best restaurants in san francisco so when jeff is in the city pinterest can notify him that hes near one of susies pinned restaurants the notification will appear on his wrist just like this and it uses pages allowing him to quickly glance at the details then swipe to see a map and if he likes it he can start navigation right from his wrist
+
+this is using google maps for mobile which gives you turn by turn navigations on your watch and its particularly useful when you are walking and it works with all android wear devices in addition to whats possible with notifications bridged from the phone today were making a full android wear sdk available which enables you to write code — its pretty great it enables you to write code that runs directly on the wearable itself and almost all the apis that youre already familiar with on android are available here that means that you can present fully customised ui read sensors directly and much much more
+
+were also introducing a new set of apis in google play services that makes it easy for your app to send data between a phone or tablet and a wearable and weve road tested these apis with some developers over the past few weeks lets take a look at examples of what they built
+
+eat24 is an app that makes food ordering both fun and easy watch this hopefully im going to order a pizza in 20 seconds when it comes to takeout im a creature of habit and eat24 has recognised this and takes advantage of that contextual stream around the same time i 2made an order last week it posted a notification suggesting i order again i can tap on the notification and launch into their full screen ui and here im presented with a beautiful interface that lets me confirm the kind of food id like today lets stick with pizza and then i can quickly swipe to see and repeat my last order just one more tap to pay and the pizza is on its way
+
+i think that clocked in under 20 seconds now you might be wondering how this app got to my watch well all i had to do was install the eat24 app from the play store on my phone when a watch is connected the wearable portion of the app is automatically installed and kept up to date on that watch
+
+i mentioned the new wearable apis for easy communication between phone and watch all the cooks is a social recipes app which has made really great use of these apis i dont know about you but i find it really hard to follow recipes especially when it gets to the tricky bits where everything is happening at the same time so wouldnt it be more convenient if i could just look down at my watch and see what to do next
+
+with the all the cooks app i can choose a recipe — lets go into my favorites and choose beef brisket chili the recipe will immediately appear on my watch so its always right there with me lets get started
+
+ive got all the ingredients so lets start following the steps and now watch the phone carefully as i move from step to step the phone stays in sync too and if youre wondering whether or not its safe to wear your watch while cooking its great to know that all the devices were talking about today are water resistant
+
+and with all the cooks whenever a recipe calls for a timer like this four hours in the oven i can do that right away on my wrist so no more burnt dinner
+
+we saw some great examples of voice actions earlier today and we believe voice actions will be most useful when they can invoke the best service in any app were just getting started with this but were making voice available for some key actions on the wearable today and well be adding more over the coming months
+
+lyft is a transportation service and ridesharing app that allows you to request a car to pick you up at your exact location lyft have implemented our call a car intent so its really easy to just walk outside and say –
+
+jeff
+
+okay google call me a car
+
+david singleton
+
+youll see that lyft is able to determine jeffs exact location from his phone and presents this confirmation screen so he can verify his address the app has also made great use of notifications in the stream you can see when your car has arrived keep up to date throughout the journey and even rate your driver right from your wrist when youre at your destination thanks to all our developers
+
+now we showed a preview of a couple of watches we were working on with our partners back in march the lg g watch will be available to order later today on the play store
+
+in addition you might have caught a glimpse of a new device during the demos were very happy that samsung is joining the android wear family with the samsung gear live and the samsung gear live is also available to order later today
+
+the moto 360 is the first watch to adopt the round android wear ui and it will be available for sale later this summer those are just the first three watches there are many more on the way and were thrilled to enable developers across the world to build apps for what we believe will be a revolutionary new formfactor
+
+and now id like to invite patrick brady on stage to tell you about how were bringing android to the car
+
+patrick brady – android director of engineering
+
+thank you david isnt that great android wear creates a seamless experience by connecting your android smartphone to a wearable device and the result is truly amazing wouldnt it be great if all of your devices were this connected for many of us cars are an integral and essential part of life they bring us to the grocery store and take us on weekend trips they bring us to work and take us home
+
+in fact in the united states the average commuter spends over one hour in the car everyday in many ways our cars keep us connected to the physical world around us but they remain disconnected from our other devices and our digital lives
+
+so what have drivers done to bridge this divide well even though its unsafe and in many cases illegal people use their phones while driving and reports show that 25 of accidents in the us are caused by people fumbling with gadgets behind the wheel theres got to be a better way
+
+so back in january we announced the open automotive alliance to address this problem and make the connected car a reality wed like to show you what weve all been working on and today were happy to announce android auto
+
+weve redesigned the android platform for automotive making it easier and safer to use the connected apps and services drivers want in the car we looked at what people do with their phones in the car today and these things stood out to us navigation communication music and other forms of streaming media android auto puts this front and center so you dont have to go hunting through the grid of icons to find the apps that are most important to you when youre in the car
+
+android auto is contextually aware to give you the right information right when you need it and most importantly android auto is completely voice enabled so that you can keep your hands on the wheel and your eyes on the road you know we really wanted to drive a car up here on stage and show you this live in action but apparently there are these regulations and logistics that make driving a vehicle in a room packed with 6000 people a very hard thing to do so we set one of our engineers on the problem and apparently this is what happens when engineers have access to a blowtorch
+
+so were down one test car but we have a great demo cockpit to show you and now i am happy to introduce andrew brenner our product manager who will literally drive this demo
+
+so to start andy connects his android phone to the car and the phone casts android auto experience to the cars screen andy can now put his phone down and use the familiar car controls steering wheel buttons console dials and touch screens to control android auto it looks and feels like its part of the car but all the apps we see here are running on andys phone which means that the experience gets better when andy updates his apps or gets a newer faster phone this also means that andy has a personalised experience that he can bring with him into any compatible car
+
+the first thing andy sees is the overview screen which shows personal and contextually relevant destinations reminders contacts and music from google now and other apps one tap and he is navigating or listening to his favorite road trip mix andy why dont you play us some music
+
+lets look for a seconds at play music it has been adapted to have simple glanceable controls for the car andy has access to all of his curated play lists radio stations albums and artists and to all the key features in google play music he can also use voice or the steering wheel controls to control the music in the car keeping his hands on the wheel fantastic of course android auto needs great maps and navigation so lets show you google maps
+
+we all love google maps because its fast accurate updated and it seems to know where everything is in android auto drivers have access to all of their favorite maps features great local search personalised suggestions live traffic and of course turnbyturn navigation and google maps for android auto is even more powerful because it is completely voiceenabled
+
+andy why dont you take us for a drive
+
+andy brenner
+
+how late is the de young museum open today
+
+google
+
+de young museum is open from 9h30 am to 5h15 pm on wednesday
+
+andy brenner
+
+good i can go there navigate there
+
+google
+
+navigating to de young museum…
+
+head toward fourth street northeast on main street and 600 feet use any lane to turn right onto fourth street
+
+patrick brady
+
+so andy was able to start navigation without ever entering an address or taking his hands off the steering wheel during navigation instructions are spoken as you heard and displayed on the screen in a material card that floats above the map great so thats music and navigation
+
+whats next lets show you voiceenabled messaging
+
+google
+
+new message from hiroshi lockheimer here it is andy are we there yet
+
+patrick brady
+
+as you can see incoming messages show up as headsup notifications so andy can still see the upcoming 1turn in maps when hes ready he can just use the steering wheel voice button to reply
+
+andy brenner
+
+reply
+
+google
+
+whats the message
+
+andy brenner
+
+i have no wheels
+
+google
+
+heres your message to hiroshi lockheimer i have no wheels do you want to send it
+
+andy brenner
+
+sure
+
+google
+
+sending message
+
+patrick brady
+
+so were really excited to bring these great experiences into the car but we also want you our developers to come along for the ride we know its not easy to build apps for cars today there are dozens of different car platforms input controls and user interfaces there is no central way to distribute your app or keep it updated
+
+wouldnt it be great if building an app for the car was just like building an app for your smartphone or tablet well we have good news for you the road ahead is brighter and today were announcing the android auto sdk so that you — we thought youd like that — so that you can just focus on making great apps for the car
+
+were starting with a full set of apis for audio and messaging applications first lets talk about audio we worked with a great set of developers on a prerelease version of the android auto sdk to develop some great audio streaming apps that let you listen to music internet 9radio news sports and podcasts on the go you can try these apps out live in our demo cars right outside
+
+next lets talk about messaging apps andy showed us earlier how he can send text messages using android auto completely with his voice well were opening this up to your messaging apps so using these apis your apps can notify users of incoming messages and allow them to respond using voice and this is the same api were using for notifications and remote reply on android wear with just a few lines of code you can let users know on their wrist or in their car its really really powerful
+
+so were really excited about android auto and we think weve found that better way but i know what youre all thinking when does the rubber actually meet the road well were happy to say that you wont have to wait long the android auto sdk will be published soon and the android auto experience will be available to users with the public l release later this year and the excitement in the auto industry has really been growing
+
+today were happy to announce that over 40 new partners have joined the open automotive alliance and over 25 car brands have signed up to ship android auto in the near future whats more the first cars with android auto will be rolling off dealer lots before the end of this year so thats just a peek at android auto an android experience thats been redesigned for the car with all of the apps drivers know and love through an interface thats built for driving
+
+now id like to welcome dave burke back on stage to tell us about android in the living room
+
+dave burke
+
+thanks patrick its pretty cool to see what you guys are doing in autos but some of us dont actually have a car in our living room wheeled or not so im going to talk about a different form factor and thats tv
+
+so tvs are fast becoming smarter and more connected and really theyre becoming computing devices in their own right so we see a great opportunity to bring some of the strong capabilities of android such as voice input user experience and content to the largest screen in your house
+
+now in some ways tv space is not too dissimilar to the mobile space in 2006 each tv manufacturer has a different os with different apis and programming model often with limited developer tools and the cost and friction to developer service to run across multiple tvs is too expensive as a result smart tvs are typically limited and not competitive with their mobile cousins so we wanted to go and change that
+
+today were announcing android tv so this isnt a new platform thats kind of the point were simply giving tv the same level of attention as phones and tablets have traditionally enjoyed we want you to be able to leverage your existing skills and investment in android and extend them to tv
+
+theres now one android sdk for all form factors now remotes are a core part of the tv experience and android tv requires just a dpad with voice input and that can be made available as a hardware remote control as a game controller or even a virtual controller on a phone or tablet
+
+so today im going to use the android tv app on my phone and the best way to understand android tv is to just see it in action so what youre about to see is hot off the press and really just an early look at the tv support that were adding to the l developer preview
+
+okay so lets start with the most integral part of television live tv so in l we added what we call the tv input framework to android so it enables androidbased tvs to handle video from sources such as hdmi tv tuners and iptv receivers and the ui provides a unified view of your channels in a familiar channelhopping ui with the channel information on the top
+
+now if you want to do something different just like every other android device you press home and youll notice that home overlays on top of the content so i can keep watching while i browse but unlike phones and tablets where the behavior is more taskbased we designed home to be a super simple leanback experience because tvs unlike computers or mobile devices theyre primarily entertainment interfaces users dont expect or want complexity from their tv
+
+so the launcher presents you with a set of content recommendations at the top floating over the ui using that familiar material theme as i scroll down you get immediate access to your applications ordered by how often you use them scroll down again you get access to your apps also ordered by usage order
+
+now if i scroll back up to the content recommendations you can see this is a quick way for me to watch content the recommendation system is completely open any app can publish to it and its ranked according to your usage patterns so for example i am currently binge watching game of thrones i am actually and it will automatically be presented with a recommendation for the next episode like so so thats the home
+
+lets talk about search today people regularly take out their phone to search for something to watch with android tv we decided to build a core search functionality directly into the experience powered by voice so for example i can just simply say breaking bad google will interpret the results get me a result for the popular tv show now with one click i can then watch it in google play maybe some tv or any other service that i have installed
+
+if i scroll down youll see information on cast members scroll down again i get related search terms also youtube clips at the bottom now i can also pivot on cast members so for example i can click on anna gunn ill get that nice material transition i get information on the actress scroll down i can get movies and tv shows that she stared in even youtube clips of interviews with the actress
+
+now the power of google comes into its own for more abstract queries for example i can just say oscarnominated movies from 2002 google will interpret that query and of course get me all my oscarnominated movies
+
+so from here of course one click i can watch it now search of course is backed by googles knowledge graph so i can ask a question so for example i could say something like who played katniss in the hunger games and of course the answer is
+
+google
+
+jennifer lawrence played katniss everdeen in the hunger games
+
+dave burke
+
+and again i get maybe some tv shows shes involved in other related queries and youtube clips so thats google search tailored for your tv
+
+lets now take a look at some of the applications so let me launch google play movies in tv first now developing for tv means creating a tenfoot user experience because thats typically how far youre standing or sitting from the screen in l weve expanded the platform to support a leanback experience with new framework classes that help you to quickly and easily build fluid cinematic tenfoot user experiences our play movies team was able to take their existing tablet app for android quickly add the leanback classes on top of it to produce a great tv experience they now have the same apk for tv phones and tablets
+
+so what you see here is the browse fragment part of the leanback classes you got nice slick animations you got those bold leanback — excuse me material colours if i then dig into a tv show i can get more information this is showing our details view by the way if you dont have your remote handy you can always use your android wear watch as a dpad for example lets try this out
+
+so weve created a little wearable app so from here i can actually — i can interact with the tv so i can go back lets go from the watch now you see me i think that we could show so i click that and then we can start watching it okay so thats not loading thats fine
+
+okay so lets move on so to wrap up all of these leanback building blocks are ready for you to use and customise in your own applications as you see fit
+
+okay so next lets talk about games people who have traditionally not thought of themselves as gamers frequently download and play games on their phones and tablets and in fact three out of four android users are playing games which has helped make the play store one of the biggest catalogues of games in the world
+
+with android tv we enable you to take your games to the biggest screen in your house and the games are getting really good so for example let me fire up one of my favorites which is leos fortune with this game pad and this is a really fun game its kind of typical of a modern android game it has got gameplay its got great graphics fast and fluid i also like it because our lead ux designers name is leo hes not quite as cuddly as this guy but i can definitely see him in a handlebar mustache
+
+anyway so another advantage of android tv is you can tap into google play games to share achievements and leaderboards with friends you can even play multiplayer games with your friends playing from any device so for example i can launch nba jam which is a really great game and play a multiplayer game with my friend allen here 4on the sofas lets try it out so hes playing on his tablet ive got my game controller lets try this so we have a bet on the first person to score is me okay first one to 2 okay lets go so the first person to do has to buy the other person a beer tonight lets go hopefully i can actually score im from ireland so i dont really understand this game lets try this oh okay did you get 2
+
+okay last one last one bear with us i want free beer tonight oh yeah all right thats a good thing theres a free bar at the after party allen okay i hope
+
+okay so thats games now sometimes you just want to cast or send content from your movie — such as movies or music from your phone so android tv includes full google cast support so you can use it just like a chromecast in fact android tv enables us to bring google cast to more tvs
+
+so for example imagine allens visiting me house and he wants to share his new favorite jam with me he can fire up play music on his phone or tablet and cast it directly to my tv and hopefully his music will appear im always really nervous about what hes actually going to play so im not sure i even want to see this okay thats pretty innocuous thats cool great so thats cast
+
+now to distribute your applications weve designed a very tvcentric play store experience ill just fire it up here and the l developer preview comes with a sneak peek of tv apps and games to showcase the platform and youll recognise big names like netflix and ted as well as some great casual and multiplayer games the store will open officially in the fall with the launch of l packed with some of the best content available today for android tailored of course for tv so thats a quick overview of android tv
+
+android tv is ideal for multiple device types so everything from builtin televisions to settop boxes to streaming boxes and gaming consoles were working with silicon vendors across the industry including everyone from marvel to intel and more
+
+today im super excited to announce of the entire 2015 hd and 4k smart tv ranges from sony and the 2015 ranges of sharp and tpvision philips will run on android tv
+
+were also seeing activity in the pay tv space with wix sfr lgu plus adopting android tv and well also be seeing streaming boxes powered by razr asus and others launching this fall and the unreal engine demo that i showed you earlier that was running on android tv with nvidias tk1 reference design capable of console style gaming and we expect to see tv products based on that hardware in the fall too
+
+finally to bootstrap the ecosystem today were making a development kit we call adt1 available through a signup page to application developers like yourselves so you can start developing for tv today in fact all the demos you saw were running on adt1
+
+so to learn more about android tv you can visit developerandroidcomtv and i mentioned earlier that google cast is a core part of the android tv experience and as cast gets better so does android tv so to learn more about some of the exciting new developments in google cast and chromecast let me hand over to rishi thank you
+
+rishi chandra — chromecast product manager
+
+thanks dave so im going to give an update on chromecast we launched chromecast last july to deliver a new tv experience that was both simple and powerful by using devices you already know and love your phone your tablet and your laptop and for the first time you had an experience that just worked all it took was a simple press of a button from your favorite app
+
+and weve been really happy about the positive reaction weve gotten from both the press and consumers weve sold millions of devices and consistently outsell all other streaming devices combined in major retail channels like bestbuy
+
+and recently weve been able to replicate that success in 18 countries today chromecast is a topselling electronics device on amazon in the us uk france japan and canada
+
+and as sales have ramped up usage per device has increased 40 already youtube sees more active engagement on chromecast than any other tv streaming product the model is working
+
+now chromecast is just the beginning we want to build an ecosystem of google castready apps and google castready devices so thats why were excited that google cast support is coming to android tv devices as devices roll out later this year
+
+so lets talk a little bit about developers we launched chromecast with five content apps and since then weve brought on board many of the top content apps from around the world including the bbc iplayer and the watch espn app which came just in time for the world cup to kill all productivity of the chromecast team luckily we have a brazilian vp
+
+google cast is designed to work with the most popular devices you find in a home today in fact in the last 30 days almost 50 of chromecasts were used by devices for multiple platforms thats why in february we launched the google cast sdk across android ios and chrome so now any developer can take their existing mobile or web app and extend it right to the tv
+
+in just a few months we have over 6000 developers registered who are actively building over 10000 google cast apps so starting to see a lot of momentum now as more and more apps are coming on board and integrating with the sdk we want to make it even easier for consumers to find your google castready app so today were announcing new discovery experiences on android ios and chrome consumers can find these at chromecastcomapps or from the chromecast app on your phone tablet or laptop this is one of many improvements were making to google cast to make it even easier to use for example one of my favorite features of chromecast is that it works with my friends and family because they can use their own devices
+
+well today were announcing a new feature to make that even easier by allowing others to cast through to your tv without needing to be on the same wifi network so i have ak here on stage with me and lets say ak is over at my house and he wants to use his phone to share or cast one of his favorite youtube videos to my tv now normally i need to share my wifi password with him but sometimes theyre long and complicated or i dont remember it in this case i just dont trust him with the password but i still wanted to see his great video
+
+well with this new feature ak can still take out his phone and open up the youtube app and youll see on the top right hes only connected to the cellular network but you still see the cast button simply press the button and it will allow him to connect to your devices now in a few seconds his phone will connect to chromecast through the cloud and thats it so now he can control the video pause the video play the video just as if he was on my same wifi network
+
+so how do we do it were using a variety of different technologies which allows us to authenticate users in the same room as the chromecast and if for whatever reason we cant automatically detect or authenticate you well ask for a pin that will always be present on the screen check this part out this is my favorite part of the video thats pretty cool
+
+so now you can invite all your friends over to your house kickback and let of them cast to your tv without any friction or hassle it makes chromecast an even more awesome experience now this is an optin feature so you always have control over who can cast to your tv well be rolling this out to all android users later this year and developers will get this for free via the google cast sdk
+
+so we also spent a lot of time thinking about new use cases for the television for example today lots of people talk about the five hours per day people watch tv what about the 19 hours per day your tv is just a blank empty screen with chromecast we want to make use of this large beautiful canvas so we started with something really simple a feed of scenic images thats been gradually expanding over time today were announcing the new google cast ambient experience and we call it backdrop it just takes a minute to set up and you can do it from any ios or android device in this case were going to use an iphone 5 for the demo and we have the feed accelerated just for the demo purposes so you can see more images
+
+so lets go ahead and open up the chromecast app and youll see backdrops a new option in the app drawer and from here you can personalise the feed to match your own interests and tastes one of the top feature requests weve gotten is the ability to add your own personal photos to the ambient feed well now you can
+
+so if we turn on photos you can select from one or multiple google photo albums and in a few seconds youll start seeing my personal photos show up right on the tv screen its that simple your tv is now the largest picture frame in the house grandparents everywhere are going to love this feature
+
+so we also have a lot more topics we want to give you an infinite source of great and beautiful images one of my favorites is one called places which brings geospatial images from google maps to your tv these satellite photos give you a totally different perspective on how you can see the world its really amazing leave it on for a really long time
+
+we also have other topics like news and lifestyle and google featured photos one of my other favorite topics is art which includes artwork from famous museums and collections from around the world including the getty museum and the national museum of women in the arts and now my tvs beautiful set of paintings
+
+every topic is curated to make sure were showing highquality and safe images and every user has the ability to control which topics show up on the tv now generally im going to leave this in the background of my house but lets say one of the images catches my eye and i want to learn more — a little bit more info about it i can use google voice search to always learn more
+
+google whats on my chromecast
+
+for every topic well show a synchronised card well show a synchronised card that will show you relevant information and relevant actions so in this case i can learn more about any artists of the painting backdrop brings your tv to life even when youre not actively using it and were looking forward to working with thirdparty developers to actually bring in their own topics into the feed backdrop will roll out to all chromecast users later this summer
+
+so finally one of the big advantages of the google cast model is that we can start thinking beyond traditional use cases of the tv like video for example your phone and your tablet have unlimited possibilities and theres many times you want to bring those experiences and extend them to the tv well to help accelerate that shift were launching a new google cast feature that allows you to mirror any android device to your television
+
+so to start mirroring just go to your chromecast app on your android device and select cast screen and from here everything on your phone will just show up on the tv its that simple no cables or wires needed
+
+now we built our own protocol to reduce latency and frame drops so experience feels really natural and smooth and now you can share anything on the big screen so let me give one example a real life example i had a few months ago using google earth
+
+i was planning a family trip to maui later in the year and i wanted to show my fouryearold daughter where maui is on the map so instead of huddling around my small phone i ended up opening google earth and projecting it on the tv so lets type in molokini one of my favorite snorkeling destinations in maui and as you can see its a totally different experience to navigate the world with my daughter on the biggest screen in the house you can play with this for hours
+
+so well do one more fun thing were actually going to open up the camera app and were actually going to mirror in live action which is a little nervous in live action all of you on the big screen its a lot of fun so were working with a large variety of devices from samsung from nexus htc and lg with many more devices coming soon
+
+well be rolling out this initially in beta as devices get updated to the latest version of google play services which will happen over the next few weeks as you can see were really excited to show how the cast model can change how we think about entertainment in the home and we look forward to innovating all of you to make that a reality
+
+now ill pass it back to sundar
+
+sundar pichai
+
+thanks rishi so we have talked so far about wearables your car and the television in your living room another very important device in our lives is our laptop our journey here began with chromebooks we are seeing tremendous momentum here we started the journey with one reference device the cr48 which we launched about three years ago
+
+a year later with samsung and asus we launched two devices in two countries fast forward to today we have eight oems making 15 devices with many more on the way in 28 countries users really love the fundamental insight behind chromebooks speed simplicity and security all 10 of the top 10 highest rated laptops today in amazon are all chromebooks
+
+we are seeing tremendous traction in education as well just this year alone the number of chromebooks sold to k12 schools in the united states has grown by 6 times and we are investing a lot more in this area so let me talk about how we are evolving the chromebook experience
+
+as i said earlier users almost always have a smartphone with them including when they are using a chromebook so we want to increasingly connect these experiences together so that they have a seamless experience across their devices lets take a look at what we can do dave kan is going to help me through with some demos dave talked earlier about how with the l release you can unlock your phone knowing that it is with you based on what we are doing with the apis in l
+
+well if we can unlock your phone we can also unlock your chromebook so every time you approach your chromebook and your phone is with you we will automatically unlock your chromebook and sign you into your favorite applications and services so it works seamlessly
+
+we have already added google now notifications so the same google now cards which you see on your phone you see them on your chromebook and were adding a few more things lets say you get an incoming phone call you will start seeing those incoming call notifications on your chromebook if you get a text message you would see those text messages on your chromebook as well and i recently had this experience my phone was in my pocket and running out of battery and my chromebook popped up a notification and said your phone is running out of your battery simple delightful experiences to connect your phone and your chromebook
+
+as we started working on this one of the things that struck us is wouldnt it be nice if you could get some of your favorite android applications which you love on your phone on your chromebook so this is a difficult challenge technically so weve been working on this project for awhile our goal is to bring your favorite android applications in a thoughtful manner to chromebooks we want this to be intuitive for users these applications were built for android for the phone so we want them to work when there is a mouse keyboard and touch event et cetera
+
+for developers we want this to work with as little modifications as possible so were in the early days and were going to show you a preview today and kan is going to help me with this so kan is going to pull his tablet up and what youre seeing on his tablet is evernote this is one of his favorite applications and i think hes planning a birthday party there
+
+lets switch over to the chromebook and the same android application is now available in the launcher on your chromebook so you can click that and you get the exact same application and because youre on a chromebook you can start making changes to it you can go to the web copy paste everything just works we have ported that android application to run within your chromebook
+
+lets give you one more example well pull a canonical application an application you see on your phone like vine we now have that application running on your chromebook pixel as well kan is going to browse through the world cup channel and you can see how the experience feels native and intuitive on a chromebook and because the app has access to some of the underlying device apis it has access to the camera api kan can actually take a clip of himself just like a vine user and post it straight from his phone
+
+the final application we want to show to you is flipboard its a beautiful immersive experience and the android version of the app now comes alive on chromebooks and you can see how beautiful and immersive this experience is we are very very excited about bringing important favorite android applications for users straight on their chromebooks so that they can get an even more connected experience and we are working on bringing our experiences across both android and chrome together so that it works in a delightful way for our users
+
+so far we have talked about bringing our platforms android and chrome to all the connected devices in your life so that we can create a great experience across all of them but there is another very important environment we want to talk to you about as well
+
+most of you spend a lot of time in your workplace weve always had this funny insight at google that it is the same person at work who is — and its the same person at home thats a picture of matt which is his work badge in his spare time hes a lonely planet traveler and he writes books for them so you can see people have very very different contexts yet your computing experience is very fragmented the way it worked in the pc world is companies gave you a separate laptop for work and a laptop for — you had your own personal laptop the experience was disconnected and that model starts breaking down when you start thinking about phones
+
+no one wants to carry two phones around so what we are doing is with the l release in android we are adding a whole set of apis to unify this experience so were bringing both your experiences so that as a user you can have one experience and both your personal applications and corporate applications can live on the same device we are doing it thoughtfully by providing underlying data separation so all your personal data is isolated from your corporate stuff and vice versa so we are providing full data isolation and security which enterprises care about
+
+as developers there is no modification needed of your existing apps all your apps will be available through google play and companies can buy them in bulk and deploy so you can reach many more users these are all available in l but we are wrapping up many of these features as a separate app so that it will also work on prior versions of android
+
+and finally samsung has done a lot of important work in this area with knox and we really want to thank samsung theyre contributing all of their work in knox to the android platform so that we have one consistent story for surprises across android
+
+can i get the next slide so were also working with major partners all major oems names you would recognise in the fall to have a certified android for work program by which we can bring these devices to companies with guaranteed updates and full security so we are very excited by this journey
+
+as we bring android for work one of the important use cases we care about is productivity documents collaboration which is why weve invested a lot in google docs and the whole suite of editors weve always had great mobile webs for google docs and sheets and today were also announcing google slides so that you can create and share presentations straight from your mobile devices
+
+one of the common use cases we run into in companies when people use this is they run into office files its a common experience for all of us and we want to make sure as we bring android for work office files work seamlessly so we acquired quickoffice and weve been hard at work integrating quickoffice into google docs and today we are announcing native office editing built within the google docs suite of editors
+
+lets take a look kan is going to show how this works im sure youre all familiar with getting emails in which you get a word file and so if you get a word file in your email you can click on it in the past we would convert it into a docs file but we dont anymore and so what you see is a native word file handled straight within google docs and this works for sheets and presentations as well and kan can make edits to the document and most importantly when he saves it it saves back as a word file so that he can send it back to people so it works seamlessly
+
+you can always up convert this to google docs so that you get advantage of world class collaboration features one of the common features we get requests on is red lining so we have done great work to bring modern collaborative approach to red lining and the feature is called suggested edits so just like google docs always does people can add their comments and very easily you can review and accept changes
+
+so with suggested edits we have modern collaborative features and with builtin native office we think our productivity suite is great for the workplace all our productivity files live in google drive we launched google drive about two years ago and today we are very excited to announce google drive has over 190000030day active users these are not registered users these are 30day active users and the number has grown over 85 just last year alone we are bringing all of google drive for work functionality to companies as well and what we are doing is we are encrypting the data both during transit and at rest on our servers we are providing enterprises full apis audit and analytics apis based on how their employees are using their data across their company
+
+and finally it is hasslefree unlimited storage for just 10 per user per month so the combination of android for work our google doc suite and google drive for work really offers a comprehensive suite for companies and joins google apps and chromebooks and as companies are thinking about moving away from traditional windows architecture we are seeing tremendous momentum 67 of the top 100 startups have gone google 58 of fortune 500 companies have gone google and 72 of the top 100 universities have gone google
+
+so we have talked about how we are bringing our platforms android and chrome across all your devices not just for your personal life but also for your workplace were going to switch gears now and talk about how you all as developers can build success on top of our platforms
+
+in fact we hear amazing stories everyday from corporate startups to students who act as developers and create amazing experiences on top of our platforms weve put together a video so that you can take a look
+
+i was incredibly moved when i saw that video the first time and even more excited all the folks on the video including those middle school students from resaca school in texas are joining us in the audience today
+
+thank you we know these examples are just the tip of the iceberg and we care deeply about evolving our platform so that you can continue to create these amazing experiences so were going to talk about that next
+
+the first is how you can build and scale your applications on top of google cloud platform weve been within google building worldclass infrastructure and running large scale services like search maps youtube and gmail and we are very excited were bringing the full power of the google cloud platform to developers like you
+
+to talk about that im going to invite urs holzle
+
+urs holzle — senior vice president of technical infrastructure
+
+thank you thank you sundar hi everyone i am urs holzle and my team and i build the google cloud platform and everyday we go to work excited to see what you all are doing with it and literally everyday theres hundreds of thousands of developers building applications that scale to hundreds of millions of users and they keep their teams small and they can focus on what they do best because we run the rest of the infrastructure for them
+
+lets have a quick look on what about — what the google cloud platform is about first of all of course we have vms with compute engine and they are best in class performance and price and you can run whatever code you want but if you dont want to bother administering machines we also have app engine and app engine makes it incredibly easy to write really high scale applications thats how snapchat got to incredible scale without having a single back end developer
+
+on storage we offer many options including of course sql as a fully managed service nosql which we invented by the way it is running billions of queries every hour and then of course object storage that scales to exabytes but you cannot just store data you also want to analyze it and in our platform you have many tools that make it easy for you to analyze data sets without worrying about scalability for example with bigquery you can stream hundreds of thousands of records per second into the cloud and query them interactively with sql
+
+and beyond technology we also lead the industry in price and performance and as hardware gets cheaper we pass on these savings to you so you see moores law in the cloud and moreover you get great sustained usage discount without having to sign up for contracts without having to make upfront payments or without having to forecast your utilisation for the next three years just to get great pricing
+
+but of course what really matters to us is seeing what you developers do with our platform and whether its netflix for storage wix web filings khan academy who run their entire business on our cloud theres a lot going on and i am going to tell you just two things about two recent new customers
+
+first secret secret where a single back end developer built an application that in two months saw over a thousand fold increase in traffic and they came to google because they needed a platform that can handle this kind of hyper scale growth without much hassle and thats exactly what they got or maybe youve seen the debut of rising star on abc last sunday its an interactive music competition where millions of tv viewers vote in real time on the winner screenz the company behind rising star is using compute engine and bigquery for the instant voting app and its been battled tested to run 13 million queries per second
+
+and at the beginning of each application is a developer who wants to get their idea out to the market as quickly as possible no matter what it is but thats why developer productivity is actually very important to us we try to make our cloud not just highly functional but also really easy to use and as youve seen the best mobile apps come with an intelligent back end thats in the cloud and theres no better place to build that back end than on google because we have the performance and we have the tools that make it really easy for you to build those applications with small teams and little focus on operations
+
+and today im very excited to show you four new tools very very cool new tools that make it really easy to understand your server side application so please welcome greg demichillie who is going to show you some demos
+
+greg demichillie — google cloud product management director
+
+thanks urs as part of showing you some of the new features that we are showing for the cloud platform ive built a sample application here and this is about as peaceful an application as i know how to build it allows me to record walks that im talking so this application allows me to record a walk i took through the city share it with my friends let them experience the same walk i took and then share comments
+
+now since this whole purpose of this application is to share information obviously i need to store that data somewhere other than my device and how do i do that the answer is cloud save cloud save is a new simple api that lets me save and retrieve per user information now that could be application data it could be user preferences or setting and i do this with no server side coding i just do a few lines of client side and with that my data can be stored in the cloud it can be retrieved and synchronised to other devices it can be available offline so that my user doesnt have an internet connection they can still walk through this walk
+
+and im a cloud guy so what really gets me excited is that this data is stored in cloud data store which means i have the full access to the cloud platform i can query that data with bigquery i could build web applications that use that data using app engine or compute engine and thats in fact what ive done in this case
+
+let me show you the web version of walk share accessing the same walk data so this is the web version i took a nice walk out by the golden gate bridge yesterday and recorded it i can expand the window and i can see the comments now if you look at the comments right away you can see that theres something a little funky going on i have code here to replace common character sequences with emoticons but if you look at that theyre sort of running amuck im putting emoticons where they dont belong so ive got some sort of bug that i need to find
+
+so im going to flip over here and look at the source code from github for this application now this application is running in production its not running on one server its running on tens or hundreds of servers and theres no way to debug an application thats running in that kind of environment at least not until today so im going to click into the debug mode i am going to click down here and i am going to put a watch point on this line of code
+
+now the platform is watching all those servers until one of them actually hits that line of code so at this point theres people hitting the traffic itll take a few seconds take a few seconds okay well go and refresh it just to make sure it hits it
+
+oh no lets try it again im determined on this one well find that line of code going to debug set the watch point nope oh there it went i just had to wait long enough patience pays off youll notice however i didnt hit the right comment because this doesnt show the bug so im actually going to use a conditional watch point and say “commentcommenter name is rachel” and now im going to wait a few seconds and well actually hit the breakpoint for that comment call stack local window and sure enough this is the one thats having the problem
+
+so to fix it im going to go up and i see heres the code that was being called i can switch into edit mode and very quickly change this regular expression to be the correct one and learn that i should always have urs do my code reviews because he never makes regular expression errors so thats cloud debugging
+
+but when i was looking at that application i also noticed that the application seemed a little slow to me it seemed like it wasnt really responding right how do i find out whats happening in production there another new feature of the platform is cloud tracing
+
+cloud tracing gives me a tracing view of all of the various requests my application was processing and how long they took im going to drill in for comments and sure enough when i look at this ive got some queries here that are taking 200 milliseconds that really seems long im going to drill into one of them and i get a view of all the service calls that went into that request so what appears to be happening here is that im doing a bunch of data store operations in sequence instead of doing them in parallel and thats not really the best practice data store
+
+so to fix that ill switch over to the code for that ill edit it sure enough this whole block of code is in a for loop thats not really the best practice for getting the best performance out of data store so we will delete all that and ill paste in the proper version of the code which actually then does all of that as one operation i can commit the change it gets rebuilt im in production ive fixed my performance problem
+
+now i fixed it for one user how do i know i fixed it for everybody well it turns out cloud tracing also gives you the ability to have reports so this is a report that ive done that compares the latency before and after that change the blue part is before i made the change the orange part is after i made the change so sure enough i can see that my curve shifted to the left my application is in fact faster not just for one user but for every user
+
+so the last thing i want to show you is cloud monitoring last month the team from stackdriver joined google and im really happy to show you some of the integration weve been working on one of the hard parts about operating a service in production is building up the monitoring and alerting that you need in order to stay on top of things
+
+with cloud monitoring you of course get the basic infrastructure type monitoring youd expect disks vms that sort of thing but whats really powerful is you also get servicelevel monitoring we automatically detect what services youre using and give you default dashboards and monitoring and its not just for google services we automatically detect over a dozen open source packages such as redis in this case and automatically give you intelligent default monitoring for those so with no additional work i get a dashboard that helps me stay on top of whats happening in my app in production
+
+finally as everybody who runs a service knows the last thing you want is your customers to be the first ones to find out that youve got a problem you want to have alerting in the event of problems cloud monitoring includes alerting so i can go and set custom alerts on any of a variety of metrics whether its on app engine or compute engine or redis in this case i have an alert set up to tell me if redis exceeds its memory threshold for more than five minutes and i have a choice of how i want to be notified do i want to be emailed or paged or sent a text message so thats just a very fast preview of four new developer productivity features coming to the cloud platform
+
+and with that ill turn it back over to urs
+
+urs holzle
+
+thank you greg so you just saw four new features that make it much easier to build and understand your backend cloud save securely saves and synchronises across devices no serviceside code just a few lines of client code cloud debugger gets you desktop debugging in your server debug a live production app with live traffic get local stack traces and so on and so on how cool is that
+
+cloud tracing then shows you your latency statistics across different groups you can compare before and after and cloud monitoring gets you intelligent monitoring with almost no setup including for many popular open source packages
+
+but now lets go from code to data information is being generated at an incredible rate and of course we want you to be able to analyze that information without worrying about scalability
+
+and today even when youre using mapreduce which we invented over a decade ago its still cumbersome to write and maintain analytics pipelines and if you want streaming analytics youre out of luck and in most systems once you have more than a few petabytes they kind of break down so weve done analytics at scale for a while and weve learned a few things
+
+for one we dont really use mapreduce anymore its great for simple jobs but it gets too cumbersome as you build pipelines and really everything is an analytic pipeline these days so what we needed was a new analytic system that scales to exabytes that makes it really easy to write pipelines that optimises these pipelines for you and that lets you use the same code for both batch and streaming analytics
+
+and today were announcing just that with cloud dataflow cloud dataflow is the result of over a decade of experience in analytics to simply fully manage service so no machines to worry about you can create data pipelines for ingesting transforming and analyzing arbitrary — arbitrarily large data sets both in batch and in real time mode and to see dataflow in action i have asked no other than our very own eric schmidt to help me look at something thats happening right now namely the world cup so please welcome eric schmidt
+
+eric schmidt
+
+thanks urs this demo is about performing sentiment analysis of world cup matches with cloud dataflow were going to analyze millions of millions of tweets per match and calculate negative or positive sentiment per team and correlate the sentiment to match data id like to thank the developer relations team at twitter for the support in using the twitter and data apis for this demo
+
+cloud dataflow is an sdk and a managed service for building big and fast parallelised data analysis pipelines you write a program as a logical set of data transformations to specify your analysis you then submit the pipeline to the dataflow service and that handles all the optimisation deployment of vms scheduling and monitoring for you
+
+now heres the code for my sentiment pipeline the dataflow api provides a simple mechanism for you to add one to many transforms to your data the first transform extracts a realtime stream of json data from cloud pub sub now this pipeline is running in streaming mode however dataflow can also be run in batch mode meaning that i can point this exact same pipeline of – at archive data say in bigquery and produce the exact same analysis one pipeline batch or stream
+
+now lets drill into the second transform tweettransformer tweettransformer is responsible for the core transformation and mapping of my data i did serialise the stream of json into a tweet object i translate it if its needed using google translate api and i score the sentiment with a thirdparty service from alchemy api
+
+now the part of the syntax that you see here is what parallelises the processing for each step this parallelisation is optimised for you by the dataflow service across processes and machines now finally i apply another transform to calculate the average for all the tweets in a threeminute sliding window dataflow provides powerful builtin primitives for doing mapreducelike and continuous computation operations
+
+two lines of code two lines of code to create a sliding window and to average all the tweets within that window reducing a massive collection of data down to one record per minute per team dataflow handles all of the aging out of my data shuffling et cetera i dont have to worry about that so awesome we have a pipeline
+
+lets switch gears and take a look at what this would look like in production what you see here is my deployed pipeline shown in the dataflow monitoring ui built right into the cloud developers console im going to go ahead and click in and youll notice that the graph correlates one to one to the code that i just showed you making it easy for you to understand — easy for you to understand your processing topology
+
+if i scroll down further i can see other information for example the total records of processed so i started this pipeline this morning right before i went on stage we processed around 5 million 52 million tweets and right now im running at about 406 records a second we have lots more headroom with this pipeline but i wanted to show you that my data is actually flowing
+
+now our goal is to make dataflow monitoring valuable and integrated with the rest of your cloud development pipeline — sorry cloud development experience
+
+now lets take a look at what we could do with this data this is a replay of the opening match between brazil and croatia this represents an analysis of millions and millions of tweets and tens of thousands of touch information represented in the match now if i scroll back and forth i can see something interesting happen at the 71st minute brazil scores a goal but youll notice in orange brazils sentiment goes down so this is odd typically the team that scores a goal will have positive sentiment
+
+now if i look in the timeline theres also some information thats been injected for me by my pipeline that says “controversial goal — controversial call related to the goal” so this is giving me some insight as to why there may be some negative sentiment towards brazil but i still dont trust my algorithm so fortunately ive had dataflow stream all of my raw data into bigquery so that it can easily perform interactive analysis over very very large data sets
+
+now here is some of the filtered raw data around that 71st 72nd minute there you have it the fans are upset with brazil related to a bad call by the referee now i think i understand my correlation a little bit better i absolutely love the world cup so thanks dataflow
+
+with clouds dataflow you have a fully managed service and unified programming model for classic etl and continuous analysis over simple or highly complex pipelines in batch or streaming mode
+
+back to you urs
+
+urs holzle
+
+thank you eric and im sure as all of you know switzerland is playing — my own country switzerland is playing at 100 pm today and i hope at the end of the day my sentiment is going to be 100
+
+but to go back to the technical part i think — i hope you understand now why we stopped using mapreduce years ago cloud dataflow really does for entire pipelines what mapreduce did for a single step namely it just makes it very easy you dont have to worry about scalability you dont have to worry about parallelism and it will run faster and scale better than pretty much any other system out there because we needed it too to solve our own problems
+
+so whether its data or code on server or on a mobile device we try to make your life easier as a developer more productive while giving you the best price and the best performance of any cloud we released hundreds of new features in just the last year and were seeing incredible growth thanks to all of you who are using the platform and im very excited to see what you can do next year with the power of google behind you thank you
+
+and now i would like to introduce ellie to talk about google play ellie
+
+ellie powers — google play product manager
+
+hi everybody im ellie and im absolutely thrilled to be talking to you about a few things that were doing to help you all create amazing user experiences and also grow your businesses
+
+now google play is the key to getting your app into the hands of millions of users globally more users than on any other platform and google offers app developers a wide range of crossplatform tools and we build on this every year
+
+now you just heard about the cloud platform and now i want to talk about a few ways that google play is helping app developers differentiate their applications and accelerate momentum weve been making aggressive investments across development tools ways to distribute and engage and new mechanisms to generate robust revenue for your business
+
+so im going to talk today about a few of our efforts in each of these areas what were doing to help you develop what were doing on distribution and what were doing to help you monetise your apps so lets talk first about development building a great application
+
+a key part of this is testing youve told us that testing can be painful and we want it to be easy today we are completely thrilled to announce that the appurify team is joining google appurify offers the most sophisticated mobile device cloud testing service and more importantly theyre just as passionate as we are about delivering highquality user experiences appurify is leading the way in replicating how your app behaves in the real world and were excited to help them further scale and bring their expertise to your app development process
+
+appurify allows you to test your apps across a wide range of devices and this is critical if you want to be sure that your app produces consistently amazing results on every type of device on ios and android all over the world but ensuring quality means more than just device testing appurify service can simulate a specific mobile network and it can even simulate what happens if the connection is weak or drops out completely appurify also gives you detailed log data on device performance network issues power consumption and stability and this means your engineering team gets all the information they need to fix the problem without needing to repro on a local device
+
+now developers tell us that testing is the cornerstone of creating highquality experiences and we want to make testing available to as many developers as possible thats why appurify will continue to be crossplatform on both ios and android and available as a freemium service
+
+next lets talk about building apps that help users get the most out of wearable devices this is a new area that were really excited about as you can tell today were announcing a platform preview of google fit this is an open platform designed to help users yeah thank you
+
+we want to help users keep better track of their fitness goals so were providing a single set of apis to manage fitness data from apps and sensors on both crossplatform devices and on wearables
+
+now before google fit i was trying to track and monitor my bike rides through my bike computer and then my weight training through a specialised app and it was a huge hassle the information was way too siloed to actually help me fit takes away the complexity of handling multiple sources giving you a unified view of a users fitness activity and this helps you create more comprehensive apps
+
+so if a user grants permission apps can have access to a users entire fitness stream to give better recommendations through this additional context so for example noom is a weight loss coach app and theyve been an early partner on google fit
+
+so lets just take a second to point out how the platform has helped noom to enhance their app so youll see that noom is able to combine my workouts nutritional information and my weight and because it can talk directly to my life in scale it can let me know when my daily cookie habit gets just little bit overboard so to centralise everything google fit apis allows fitness apps and brands to share your fitness activity but only with your explicit permission thats the key you are in control you can choose who you share what with and you can delete your fitness activity whenever you want
+
+google fit apis are also opening up new access to data coming in from hardware from top fitness brands for example adidas has a collection of smart sensors that theyre opening up to developers for the first time and were thrilled to announce that nike is allowing other apps and fitness devices to integrate with nike fuel through this api nike will be publishing nike fuel to the fit platform meaning that your app can use it to give better insights into a users fitness and of course there are many many many partners that are joining the google fit ecosystem more partners in the program means you can all create more meaningful experiences for users
+
+so were incredibly excited about the potential here for a platform approach in this area we want to make it so that you can build great fitness experiences with just one api the platform preview sdk will be available in just a few weeks so stay tuned
+
+so next lets talk about increasing distribution for your apps growing your user base and thats where google play comes in so last year we announced our crossplatform service google play games and we have been delighted by the response from users and developers
+
+google play games is now the fastestgrowing mobile game network of all time we have activated over 100 million new users in just the past six months and google play games connects your game to a concentrated network of people who love games it makes gaming more fun through services like achievements leaderboards multiplayer game gifts and cloud save developers use these to make awesome games and bring players back more frequently boosting their success
+
+and today were announcing new experiences and game services to help you further enhance game play so first step we have the new game profile in the new play games app your game profile changes automatically based on the games you play and your achievements in each game this new profile means that each player expresses their own gaming identity and it makes playing games with friends more fun
+
+since the launch last year users have loved saving their play games progress in the cloud and were evolving that now into saved games users will be able to see bookmarks of their progress in the play games app so dave had shown us leos fortune earlier this is a really fun game and i just started playing it last week so i can see here in the play games app my saved game with a screen shot of me playing level 3 and were rolling out a new feature called quests so quest is an online timebased goal that you can set up in your game such as collecting a bunch of ingame items on a specific day
+
+now were offering a set of apis that can run these events for your players and reward them all without you needing to update your game we have some early games that have started integrating quests and saved games and we cant wait to see how you are going to integrate these into your games these features will roll out soon in the next update of google play services and the play games app
+
+okay so weve had a look at a few ways that you can build highquality differentiated experiences and distribute them to a broad audience now lets talk about what google play is doing to help you monetise your business so one popular way that users pay on google play is through direct carrier billing this means charging google play purchases directly to the mobile phone bill now weve been working hard rolling out direct carrier billing to our fastestgrowing markets its taken off really quickly weve just expanded coverage with seven new markets for a total of 25 countries
+
+were happy to announce that direct carrier billing is now going to be available on more devices on tablets so if you have a phone and youve already set up carrier billing youll be able to pay for apps games movies music books and other content on your tablet all still paid through that monthly phone bill itll even work on tablets that are wifi only
+
+okay so there we are app testing the google fit platform new play games capabilities and direct carrier billing for tablets these are four new ways that we can help you to create uniquely delightful experiences for your users thank you
+
+alright back to you sundar
+
+sundar pichai
+
+thanks ellie we are seeing tremendous momentum in google play and we really take this seriously because it translates to success for you all in fact since last years io we have paid out over 5 billion to developers on top of google play its not just the volume of this number but the rate at which this number is growing its increased two and a half times from 2 billion the year before so we are seeing tremendous momentum we are very excited because it directly translates to developers building their livelihood on top of our platforms
+
+of course you all dont just come to io to hear stats like this you also come because you get your hands on cool new gadgets so were going to give you some
+
+the first is an interesting one a set of engineers in their 20 time surprised all of us with what you can do just with an offtheshelf cardboard and your smartphone and the combination takes you into a very very immersive experience were going to hand each and every one of you a cardboard as you walk out from the keynote and please share your thoughts on hashtag cardboard
+
+next we are very excited about android wear so we are going to give each and every one of you either the lg g watch or the samsung gear live these are great devices and i hope you enjoy them we dont want you to just create experiences for squarefaced watches we want to make sure you think about circular ones as well so we will give each and every one of you a motorola 360 as soon as it is available
+
+its an incredible time in personal computing you saw our journey today across the platforms across all these computing devices which people are using its tough to believe that personal computing started only a few decades ago we feel humbled to be part of this journey with you all and we look forward to building more amazing experiences with you thank you have a great conferenceembed"
